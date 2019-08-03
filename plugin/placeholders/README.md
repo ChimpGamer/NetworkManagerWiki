@@ -12,8 +12,8 @@
 | %onlineplayers% | Returns the amount of online players. |
 | %maxplayers% | Returns the amount of max allowed players on the server. |
 | %message\_&lt;messageKey&gt;% | Returns the messages from the message key defined. Example: %message\_lang\_time\_year% would return Year if the selected language is English. |
-| %randomplayer\_&lt;x&gt;% | Returns a list of random online players. Where the x is you define the amount of random players. |
-| %players\_&lt;server/servergroup&gt;% | Returns the amount of online players on the defined server or servergroup. |
+| %randomplayer@&lt;x&gt;% | Returns a list of random online players. Where the x is you define the amount of random players. Example: %randomplayer@5% |
+| %players@&lt;server/servergroup&gt;% | Returns the amount of online players on the defined server or servergroup. Example: %players@lobby% |
 
 ### General Placeholders \(Player Online\)
 

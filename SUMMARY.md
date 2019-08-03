@@ -34,6 +34,7 @@
     * [LuckPerms](plugin/placeholders/luckperms.md)
     * [PremiumVanish](plugin/placeholders/premiumvanish.md)
     * [UltraPermissions](plugin/placeholders/ultrapermissions.md)
+    * [RedisBungee](plugin/placeholders/redisbungee.md)
   * [Extensions](plugin/extensions/README.md)
     * [DiscordBot](plugin/extensions/discordbot.md)
     * [Tags](plugin/extensions/bukkit-tags.md)
