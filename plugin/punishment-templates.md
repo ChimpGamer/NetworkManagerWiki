@@ -1,6 +1,6 @@
 # Punishment Templates
 
-Alright so, Punishment Templates or Pre Punishments allow you to execute pre-defined punishments which have to be created in the WebInterface.
+Alright so, Punishment Templates or Pre Punishments allows you to execute pre-defined punishments which have to be created in the WebInterface.
 
 ### Fields explanation
 
