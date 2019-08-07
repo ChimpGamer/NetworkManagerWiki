@@ -1,5 +1,12 @@
 # Others
 
+{% hint style="info" %}
+###  Ping
+
+**Usage:** /ping \(username\)  
+**Permission:** networkmanager.ping, networkmanager.ping.others
+{% endhint %}
+
 <table>
   <thead>
     <tr>
@@ -8,11 +15,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">/ping [username]</td>
-      <td style="text-align:left">networkmanager.ping
-        <br />networkmanager.ping.other</td>
-    </tr>
     <tr>
       <td style="text-align:left">/playtime [username/top]</td>
       <td style="text-align:left">
