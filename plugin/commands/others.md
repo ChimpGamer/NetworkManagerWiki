@@ -7,6 +7,38 @@
 **Permission:** networkmanager.ping, networkmanager.ping.others
 {% endhint %}
 
+{% hint style="info" %}
+###  Playtime
+
+**Usage:** /playtime \(username/top\)  
+**Permission:** networkmanager.playtime, networkmanager.playtime.others, networkmanager.playtime.top
+{% endhint %}
+
+{% hint style="info" %}
+###  Find
+
+**Usage:** /find \[username\]  
+**Permission:** networkmanager.find
+{% endhint %}
+
+{% hint style="info" %}
+###  Lookup
+
+**Usage:** /lookup \[username\]  
+**Permission:** networkmanager.lookup
+{% endhint %}
+
+{% hint style="info" %}
+###  Maintenace
+
+**Usage:** /maintenance \[toggle/enable/disable/status\]  
+**Permissions:** networkmanager.maintenance,  
+networkmanager.maintenance.toggle,  
+networkmanager.maintenance.enable,  
+networkmanager.maintenance.disable,  
+networkmanager.maintenance.status,
+{% endhint %}
+
 <table>
   <thead>
     <tr>
@@ -15,32 +47,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">/playtime [username/top]</td>
-      <td style="text-align:left">
-        <p>networkmanager.playtime</p>
-        <p>networkmanager.playtime.other</p>
-        <p>networkmanager.playtime.top</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/find [username]</td>
-      <td style="text-align:left">networkmanager.find</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/lookup [username]</td>
-      <td style="text-align:left">networkmanager.lookup</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/maintenance [toggle/enable/disable/status]</td>
-      <td style="text-align:left">
-        <p>networkmanager.maintenance</p>
-        <p>networkmanager.maintenance.toggle</p>
-        <p>networkmanager.maintenance.enable</p>
-        <p>networkmanager.maintenance.disable</p>
-        <p>networkmanager.maintenance.status</p>
-      </td>
-    </tr>
     <tr>
       <td style="text-align:left">/nick &lt;off/reset/username/nickname&gt;</td>
       <td style="text-align:left">
