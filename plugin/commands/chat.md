@@ -21,7 +21,8 @@
 
 **Usage:** /chatlock \[serverName\]  
 **Aliases:** /lockchat, clock, cl  
-**Permission:** networkmanager.chatlock
+**Permission:** networkmanager.chatlock  
+**Bypass Permission:** networkmanager.chatlock.bypass
 {% endhint %}
 
 {% hint style="info" %}
@@ -29,7 +30,8 @@
 
 **Usage:** /clearchat \[global/serverName\]  
 **Aliases:** /cc  
-**Permission:** networkmanager.clearchat
+**Permission:** networkmanager.clearchat  
+**Bypass** P**ermission:** networkmanager.clearchat.bypass
 {% endhint %}
 
 {% hint style="info" %}
