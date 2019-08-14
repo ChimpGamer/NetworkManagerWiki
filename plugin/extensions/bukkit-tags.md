@@ -25,7 +25,7 @@
 `/tags setdesc <Tagname> <Description>`  
 `/tags set <Username> <Tagname>`  
 `/tags unset/clear <Username>`  
-`/tags permissionsr <Tagname/TagId>`
+`/tags permissions <Tagname/TagId>`
 
 The server parameter can be replaced with "all" to indicate a global setting. Parameters within \(\)'s are optional parameters. Parameters within &lt;&gt;'s are required.
 
