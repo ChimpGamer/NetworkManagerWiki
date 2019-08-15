@@ -1,5 +1,28 @@
 # Punishments
 
+{% hint style="info" %}
+###  **Global Ban**
+
+**Usage:** /gban \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gban
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global Temporary Ban**
+
+**Usage:** /gtempban \[username\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gtempban
+{% endhint %}
+
+
+
+{% hint style="info" %}
+###  **Global IP Ban**
+
+**Usage:** /gipban \[username\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gtempban
+{% endhint %}
+
 | Command | Permission |
 | :--- | :--- |
 | /gban \[username\] \(-s\) \[reason\] | networkmanager.punishment.gban |

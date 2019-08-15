@@ -47,6 +47,8 @@ You can also do this for single servers liked you're used to of course.
 
 ## Settings
 
+You can find these settings in the Web Interface under: Settings -&gt; Plugin
+
 "setting\_servermanager\_logingroup" - This is the group of servers where the players are sent to after they join the network. Usually if you're network is running offline/cracked mode you put the group where you have the authentication servers in.
 
 "setting\_servermanager\_fallbackgroup" - This group is usually for the lobby servers. 

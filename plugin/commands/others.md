@@ -39,47 +39,52 @@ networkmanager.maintenance.disable,
 networkmanager.maintenance.status,
 {% endhint %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Command</th>
-      <th style="text-align:left">Permission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">/nick &lt;off/reset/username/nickname&gt;</td>
-      <td style="text-align:left">
-        <p>networkmanager.nickname</p>
-        <p>networkmanager.nickname.other</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/seen [username]</td>
-      <td style="text-align:left">networkmanager.seen</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/language [language/username/all] &lt;language&gt;</td>
-      <td style="text-align:left">
-        <p>networkmanager.language</p>
-        <p>networkmanager.language.other</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/execute [allproxies/server/proxyid] [command]</td>
-      <td style="text-align:left">networkmanager.execute</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/notify</td>
-      <td style="text-align:left">networkmanager.notify</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/helpop [message]</td>
-      <td style="text-align:left">networkmanager.helpop</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">/ticket</td>
-      <td style="text-align:left">networkmanager.tickets</td>
-    </tr>
-  </tbody>
-</table>
+{% hint style="info" %}
+###  Nickname
+
+**Usage:** /nick \[off/reset/username/nickname\]  
+**Permissions:** networkmanager.nickname, networkmanager.nickname.other
+{% endhint %}
+
+{% hint style="info" %}
+###  Seen
+
+**Usage:** /seen \[username\]  
+**Permissions:** networkmanager.seen
+{% endhint %}
+
+{% hint style="info" %}
+###  Language
+
+**Usage:** /language \[language/username/all\] \(language\)  
+**Permissions:** networkmanager.language, networkmanager.language.other
+{% endhint %}
+
+{% hint style="info" %}
+###  Execute
+
+**Usage:** /execute \[allproxies/server/proxyid\] \[command\]  
+**Permissions:** networkmanager.execute
+{% endhint %}
+
+{% hint style="info" %}
+###  Notify
+
+**Usage:** /notify  
+**Permissions:** networkmanager.notify
+{% endhint %}
+
+{% hint style="info" %}
+###  HelpOP
+
+**Usage:** /helpop \[message\]  
+**Permissions:** networkmanager.helpop
+{% endhint %}
+
+{% hint style="info" %}
+###  Tickets
+
+**Usage:** /tickets  
+**Permissions:** networkmanager.tickets
+{% endhint %}
+
