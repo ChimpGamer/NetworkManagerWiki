@@ -97,6 +97,14 @@
 {% endhint %}
 
 {% hint style="info" %}
+###  Temporary **IP Ban**
+
+**Usage:** /tempipban \[username\] \[server\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.tempipban  
+**Alert Permission:** networkmanager.punishment.tempipban.alert
+{% endhint %}
+
+{% hint style="info" %}
 ###  **Mute**
 
 **Usage:** /mute \[username\] \[server\] \(-s\) \[reason\]  
@@ -118,6 +126,14 @@
 **Usage:** /ipmute \[username\] \[server\] \(-s\) \[reason\]  
 **Permission:** networkmanager.punishment.ipmute  
 **Alert Permission:** networkmanager.punishment.ipmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Temporary **IP Mute**
+
+**Usage:** /tempipmute \[username\] \[server\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.tempipmute  
+**Alert Permission:** networkmanager.punishment.tempipmute.alert
 {% endhint %}
 
 {% hint style="info" %}
