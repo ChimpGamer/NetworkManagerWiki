@@ -4,51 +4,192 @@
 ###  **Global Ban**
 
 **Usage:** /gban \[username\] \(-s\) \[reason\]  
-**Permission:** networkmanager.punishment.gban
+**Permission:** networkmanager.punishment.gban  
+**Alert Permission:** networkmanager.punishment.gban.alert
 {% endhint %}
 
 {% hint style="info" %}
 ###  **Global Temporary Ban**
 
 **Usage:** /gtempban \[username\] \[duration\] \(-s\) \[reason\]  
-**Permission:** networkmanager.punishment.gtempban
+**Permission:** networkmanager.punishment.gtempban  
+**Alert Permission:** networkmanager.punishment.gtempban.alert
 {% endhint %}
-
-
 
 {% hint style="info" %}
 ###  **Global IP Ban**
 
-**Usage:** /gipban \[username\] \[duration\] \(-s\) \[reason\]  
-**Permission:** networkmanager.punishment.gtempban
+**Usage:** /gipban \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gipban  
+**Alert Permission:** networkmanager.punishment.gipban.alert
 {% endhint %}
 
-| Command | Permission |
-| :--- | :--- |
-| /gban \[username\] \(-s\) \[reason\] | networkmanager.punishment.gban |
-| /gtempban \[username\] \[duration\] \(-s\) \[reason\] | networkmanager.punishment.gtempban |
-| /gipban \[username\] \(-s\) \[reason\] | networkmanager.punishment.gipban |
-| /gtempipban \[username\] \[duration\] \(-s\) \[reason\] | networkmanager.punishment.gtempipban |
-| /gmute \[username\] \(-s\) \[reason\] | networkmanager.punishment.gmute |
-| /gtempmute \[username\] \[duration\] \(-s\) \[reason\] | networkmanager.punishment.gtempmute |
-| /gipmute \[username\] \(-s\) \[reason\] | networkmanager.punishment.gipmute |
-| /gtempipmute \[username\] \(-s\) \[reason\] | networkmanager.punishment.gtempipmute |
-| /gkick \[username\] \(-s\) \[reason\] | networkmanager.punishment.gkick |
-| /ban \[username\] \[server\] \(-s\) \[reason\] | networkmanager.punishment.ban |
-| /tempban \[username\] \[server\] \[duration\] \(-s\) \[reason\] | networkmanager.punishment.tempban |
-| /ipban \[username\] \[server\] \(-s\) \[reason\] | networkmanager.punishment.ipban |
-| /mute \[username\] \[server\] \(-s\) \[reason\] | networkmanager.punishment.mute |
-| /tempmute \[username\] \[server\] \[duration\] \(-s\) \[reason\] | networkmanager.punishment.tempmute |
-| /ipmute \[username\] \[server\] \(-s\) \[reason\] | networkmanager.punishment.ipmute |
-| /kick \[username\] \[server\] \(-s\) \[reason\] | networkmanager.punishment.kick |
-| /warn \[username\] \(-s\) \[reason\] | networkmanager.punishment.warn |
-| /note \[username\] \[reason\] | networkmanager.punishment.note |
-| /gunban \[username\] | networkmanager.punishment.gunban |
-| /gunmute \[username\] | networkmanager.punishment.gunmute |
-| /unban \[username\] \[server\] | networkmanager.punishment.unban |
-| /unmute \[username\] \[server\] | networkmanager.punishment.unmute |
-| /report \[username\] \[reason\] | networkmanager.punishment.report |
-| /punish \[username\] \[templateId\] | networkmanager.punish |
+{% hint style="info" %}
+###  **Global Temporary IP Ban**
+
+**Usage:** /gtempipban \[username\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gtempipban  
+**Alert Permission:** networkmanager.punishment.gtempipban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global Mute**
+
+**Usage:** /gmute \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gmute  
+**Alert Permission:** networkmanager.punishment.gmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global Temporary Mute**
+
+**Usage:** /gtemp \[username\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gtempmute  
+**Alert Permission:** networkmanager.punishment.gtempmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global IP Mute**
+
+**Usage:** /gipmute \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gipmute  
+**Alert Permission:** networkmanager.punishment.gipmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global Temporary IP Mute**
+
+**Usage:** /gtempipmute \[username\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gtempipmute  
+**Alert Permission:** networkmanager.punishment.gtempipmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Global Kick**
+
+**Usage:** /gkick \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.gkick  
+**Alert Permission:** networkmanager.punishment.gkick.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Ban**
+
+**Usage:** /ban \[username\] \[server\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.ban  
+**Alert Permission:** networkmanager.punishment.ban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Temporary Ban**
+
+**Usage:** /tempban \[username\] \[server\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.tempban  
+**Alert Permission:** networkmanager.punishment.tempban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **IP Ban**
+
+**Usage:** /ipban \[username\] \[server\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.ipban  
+**Alert Permission:** networkmanager.punishment.ipban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Mute**
+
+**Usage:** /mute \[username\] \[server\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.mute  
+**Alert Permission:** networkmanager.punishment.mute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **Temporary Mute**
+
+**Usage:** /tempmute \[username\] \[server\] \[duration\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.tempmute  
+**Alert Permission:** networkmanager.punishment.tempmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  **IP Mute**
+
+**Usage:** /ipmute \[username\] \[server\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.ipmute  
+**Alert Permission:** networkmanager.punishment.ipmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Kick
+
+**Usage:** /kick \[username\] \[server\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.kick  
+**Alert Permission:** networkmanager.punishment.kick.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Warn
+
+**Usage:** /warn \[username\] \(-s\) \[reason\]  
+**Permission:** networkmanager.punishment.warn  
+**Alert Permission:** networkmanager.punishment.warn.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Note
+
+**Usage:** /note \[username\] \[reason\]  
+**Permission:** networkmanager.punishment.note  
+**Alert Permission:** networkmanager.punishment.note.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Global Unban
+
+**Usage:** /gunban \[username\]  
+**Permission:** networkmanager.punishment.gunban  
+**Alert Permission:** networkmanager.punishment.gunban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Global Unmute
+
+**Usage:** /gunmute \[username\]  
+**Permission:** networkmanager.punishment.gunmute  
+**Alert Permission:** networkmanager.punishment.gunmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Unban
+
+**Usage:** /unban \[username\] \[server\]  
+**Permission:** networkmanager.punishment.unban  
+**Alert Permission:** networkmanager.punishment.unban.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Unmute
+
+**Usage:** /unmute \[username\] \[server\]  
+**Permission:** networkmanager.punishment.unmute  
+**Alert Permission:** networkmanager.punishment.unmute.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Report
+
+**Usage:** /report \[username\] \[reason\]  
+**Permission:** networkmanager.punishment.report  
+**Alert Permission:** networkmanager.punishment.report.alert
+{% endhint %}
+
+{% hint style="info" %}
+###  Punish
+
+**Usage:** /punish \[username\] \[templateId\]  
+**Permission:** networkmanager.punish
+{% endhint %}
 
 ## Punishment duration
 
