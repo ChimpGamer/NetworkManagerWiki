@@ -12,6 +12,7 @@
     * [CommandBlocker](plugin/modules/commandblocker.md)
     * [MOTD](plugin/modules/motd.md)
     * [Punishments](plugin/modules/punishments.md)
+    * [Proxy Only](plugin/modules/proxy-only.md)
     * [ServerManager](plugin/modules/servermanager.md)
     * [TabHeader](plugin/modules/tabheader.md)
   * [API](plugin/api/README.md)
