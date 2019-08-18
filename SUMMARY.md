@@ -14,6 +14,7 @@
     * [Punishments](plugin/modules/punishments.md)
     * [Proxy Only](plugin/modules/proxy-only.md)
     * [ServerManager](plugin/modules/servermanager.md)
+    * [SlashServer](plugin/modules/slashserver.md)
     * [TabHeader](plugin/modules/tabheader.md)
   * [API](plugin/api/README.md)
     * [Hook into the API](plugin/api/hook-into-the-api.md)
