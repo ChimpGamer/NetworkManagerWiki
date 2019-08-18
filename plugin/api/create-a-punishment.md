@@ -17,17 +17,19 @@ public class Example {
         this.networkManager = networkManager;
     }
     
-    public void createPunishment() {
-        Optional<Player> opPlayer = this.getNetworkManager().getPlayerSafe("UUID of player that you want to punish here");
-        if (!opPlayer.isPresent()) {
-            getNetworkManager().debug("Could not fetch player from database!");
-            return;
-        }
-        Player player = opPlayer.get();
-        int id = this.getNetworkManager().getCacheManager().getCachedPunishments().getLatestID();
-        Punishment punishment = new NMPunishment(this.getNetworkManager(), id, Punishment.Type.GBAN, player.getUuid(), "uuid of punisher", null, System.currentTimeMillis(), -1, "IP of player that you punish", null, "Punishment reason here", true);
+public void createPunishment(Player player) {
+        final CachedPunishments cachedPunishments = this.getNetworkManager().getCacheManager().getCachedPunishments();
+        Punishment.Builder punishmentBuilder = cachedPunishments.createPunishmentBuilder();
+        Punishment punishment = punishmentBuilder
+                .setType(Punishment.Type.GBAN)
+                .setUuid(UUID.fromString("uuid-here"))
+                .setPunisher(UUID.fromString("uuid-of-punisher-here"))
+                .setTime(System.currentTimeMillis())
+                .setReason("Just a simple reason here.")
+                .build();
         punishment.punish();
-        player.notify(player.generateBanMessage(punishment), punishment.getType());
+        
+        player.executePunishmentActions(punishment);
     }
     
     private NetworkManagerPlugin getNetworkManager() {

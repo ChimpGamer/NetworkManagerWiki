@@ -1,5 +1,7 @@
 # Get the language as an string.
 
+!!! Example is for spigot only !!!
+
 {% code-tabs %}
 {% code-tabs-item title="LanguageName.java" %}
 ```java
@@ -11,8 +13,8 @@ import java.util.UUID;
 import org.bukkit.command.CommandSender;
 
 import example.main.MainClass;
-import nl.chimpgamer.networkmanagerapi.exceptions.LanguageNotFoundException;
-import nl.chimpgamer.networkmanagerapi.modules.player.Player;
+import nl.chimpgamer.networkmanager.api.exceptions.LanguageNotFoundException;
+import nl.chimpgamer.networkmanager.api.modules.player.Player;
 
 public class LanguageName {
 	
