@@ -31,37 +31,30 @@ public class LanguageName {
      * @author Daniel Markink and ChimpGamer
 	 */
     public String getLanguageName(CommandSender sender) {
-		if(!(sender instanceof org.bukkit.entity.Player)) {
-            if (this.nmapi.getCacheManager().getCachedValues().getValues().containsKey("setting_language_default")) {
-                return this.nmapi.getCacheManager().getCachedValues().getString("setting_language_default");
-            } else {
-            	// Fallback language name if the language can not be retrieved.
-                return "English";
-            }
-		} else {
-			UUID uuid = ((org.bukkit.entity.Player) sender).getUniqueId();
-			Optional<Player> nmbplayer = this.nmapi.getCacheManager().getCachedPlayers().getPlayerSafe(uuid);
-			try {
-				if(nmbplayer.isPresent()) {
-					return this.nmapi.getCacheManager().getCachedLanguages().getLanguage(nmbplayer.get().getLanguage()).getName();
-				} else {
-					if (this.nmapi.getCacheManager().getCachedValues().getValues().containsKey("setting_language_default")) {
-		                return this.nmapi.getCacheManager().getCachedValues().getString("setting_language_default");
-		            } else {
-						// Fallback language name if the language can not be retrieved.
-		                return "English";
-		            }
-				}
-			} catch (LanguageNotFoundException e) {
-				e.printStackTrace();
-				if (this.nmapi.getCacheManager().getCachedValues().getValues().containsKey("setting_language_default")) {
-	                return this.nmapi.getCacheManager().getCachedValues().getString("setting_language_default");
-	            } else {
-					// Fallback language name if the language can not be retrieved.
-	                return "English";
-	            }
-			}
+        final CachedValues cachedValues = this.getNmapi().getCacheManager().getCachedValues();
+        final CachedLanguages cachedLanguages = this.getNmapi().getCacheManager().getCachedLanguages();
+        final CachedPlayers cachedPlayers = this.getNmapi().getCacheManager().getCachedPlayers();
+        if (!(sender instanceof org.bukkit.entity.Player)) {
+            return cachedValues.getString(Setting.LANGUAGE_DEFAULT) != null ? cachedValues.getString(Setting.LANGUAGE_DEFAULT) : "English";
         }
+        UUID uuid = ((org.bukkit.entity.Player) sender).getUniqueId();
+        Optional<Player> opPlayer = cachedPlayers.getPlayerSafe(uuid);
+        try {
+            if (opPlayer.isPresent()) {
+                Player player = opPlayer.get();
+                Language language = cachedLanguages.getLanguage(player.getLanguage());
+                return language != null ? language.getName() : (cachedValues.getString(Setting.LANGUAGE_DEFAULT) != null ? cachedValues.getString(Setting.LANGUAGE_DEFAULT) : "English");
+            } else {
+                return cachedValues.getString(Setting.LANGUAGE_DEFAULT) != null ? cachedValues.getString(Setting.LANGUAGE_DEFAULT) : "English";
+            }
+        } catch (LanguageNotFoundException ex) {
+            ex.printStackTrace();
+            return cachedValues.getString(Setting.LANGUAGE_DEFAULT) != null ? cachedValues.getString(Setting.LANGUAGE_DEFAULT) : "English";
+        }
+    }
+    
+    private NetworkManagerAPIHook getNmapi() {
+        return nmapi;
     }
 }
 
