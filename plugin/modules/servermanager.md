@@ -57,5 +57,8 @@ You can find these settings in the Web Interface under: Settings -&gt; Plugin
 
 "setting\_servermanager\_kickmove" - If players get kicked from a server because it crashes or is just restarting they will be moved to an available fallback server in the fallbackgroup.  
   
+\`setting\_servermanager\_status\_check\_interval\`  - Change the interval \(defined in seconds\) of the server status check task.
+
+  
 NOTE: The above settings expect the name of a servergroup as value.
 
