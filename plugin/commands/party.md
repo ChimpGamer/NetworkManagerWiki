@@ -5,7 +5,7 @@
 
 **Usage:** /party chat \[toggle/message\]  
 **Aliases:** /partychat, pc  
-**Permission:** networkmanager.partychat
+**Permission:** networkmanager.party.chat
 {% endhint %}
 
 {% hint style="info" %}
@@ -26,8 +26,7 @@
 ###  **Party Jump**
 
 **Usage:** /party jump  
-**Permission:** networkmanager.party.jump  
-**Bypass** P**ermission:** networkmanager.clearchat.bypass
+**Permission:** networkmanager.party.jump
 {% endhint %}
 
 {% hint style="info" %}
