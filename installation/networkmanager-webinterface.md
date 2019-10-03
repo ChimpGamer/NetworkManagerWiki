@@ -8,7 +8,7 @@
 
 ### Installation
 
-TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! Then you can just skip to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts [here](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)
+TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! After successfully executing the script you can go to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts [here](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)
 
 1. You'll need to download the latest version of NetworkManager \(WebInterface\). Once downloaded unzip the file and upload the content of the ZIP into your web directory. \(example: /var/www/html/networkmanager\).
 2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' \(folder\) to permissions 777.
