@@ -10,6 +10,7 @@
   * [Modules](plugin/modules/README.md)
     * [Announcements](plugin/modules/announcements.md)
     * [CommandBlocker](plugin/modules/commandblocker.md)
+    * [Filter](plugin/modules/filter.md)
     * [MOTD](plugin/modules/motd.md)
     * [Punishments](plugin/modules/punishments.md)
     * [Proxy Only](plugin/modules/proxy-only.md)
