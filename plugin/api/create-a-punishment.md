@@ -5,8 +5,8 @@ package nl.chimpgamer.networkmanager.example;
 
 import nl.chimpgamer.networkmanager.common.modules.punishments.NMPunishment;
 import nl.chimpgamer.networkmanagerapi.NetworkManagerPlugin;
-import nl.chimpgamer.networkmanagerapi.modules.player.Player;
-import nl.chimpgamer.networkmanagerapi.modules.punishments.Punishment;
+import nl.chimpgamer.networkmanagerapi.models.player.Player;
+import nl.chimpgamer.networkmanagerapi.models.punishments.Punishment;
 
 import java.util.Optional;
 

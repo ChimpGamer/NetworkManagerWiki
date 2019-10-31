@@ -14,7 +14,7 @@ import org.bukkit.command.CommandSender;
 
 import example.main.MainClass;
 import nl.chimpgamer.networkmanager.api.exceptions.LanguageNotFoundException;
-import nl.chimpgamer.networkmanager.api.modules.player.Player;
+import nl.chimpgamer.networkmanager.api.models.player.Player;
 
 public class LanguageName {
 	

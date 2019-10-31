@@ -46,9 +46,9 @@ import org.bukkit.plugin.Plugin;
 import example.main.YourMainClass;
 import nl.chimpgamer.networkmanager.api.NetworkManagerPlugin;
 import nl.chimpgamer.networkmanager.api.cache.CacheManager;
-import nl.chimpgamer.networkmanager.api.modules.permissions.Group;
-import nl.chimpgamer.networkmanager.api.modules.permissions.PermissionPlayer;
-import nl.chimpgamer.networkmanager.api.modules.player.Player;
+import nl.chimpgamer.networkmanager.api.models.permissions.Group;
+import nl.chimpgamer.networkmanager.api.models.permissions.PermissionPlayer;
+import nl.chimpgamer.networkmanager.api.models.player.Player;
  
 public class NetworkManagerAPIHook {
     private NetworkManagerPlugin networkManager;
