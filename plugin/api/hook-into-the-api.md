@@ -2,8 +2,8 @@
 
 ## Classes:
 
-{% code-tabs %}
-{% code-tabs-item title="MainClass.java" %}
+{% tabs %}
+{% tab title="MainClass.java" %}
 ```java
 package example.main;
 
@@ -29,11 +29,11 @@ public class MainClass extends JavaPlugin {
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="NetworkManagerAPIHook.java" %}
+{% tabs %}
+{% tab title="NetworkManagerAPIHook.java" %}
 ```java
 package example.nmapi;
  
@@ -110,6 +110,6 @@ public class NetworkManagerAPIHook {
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

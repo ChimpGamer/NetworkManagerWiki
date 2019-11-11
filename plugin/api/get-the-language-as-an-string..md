@@ -2,8 +2,8 @@
 
 !!! Example is for spigot only !!!
 
-{% code-tabs %}
-{% code-tabs-item title="LanguageName.java" %}
+{% tabs %}
+{% tab title="LanguageName.java" %}
 ```java
 package example.nmapi;
 
@@ -59,6 +59,6 @@ public class LanguageName {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
