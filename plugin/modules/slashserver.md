@@ -1,5 +1,8 @@
 # SlashServer
 
+SlashServer creates commands with the name of the server.  
+Example: You have a server called survival and skyblock. SlashServer allows you to do /survival and /skyblock to switch to these servers.
+
 ### Configuration
 
 1. Enable the slashserver module \(module\_slashserver\) in the settings.
