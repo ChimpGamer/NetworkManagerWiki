@@ -26,6 +26,8 @@
 
 **Usage:** /lookup \[username\]  
 **Permission:** networkmanager.lookup
+
+**TIP:** When you have PremiumVanish on BungeeCord, you can use the %isvanished% placeholder in the lookup format.
 {% endhint %}
 
 {% hint style="info" %}

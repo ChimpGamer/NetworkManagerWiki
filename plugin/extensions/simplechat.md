@@ -6,8 +6,7 @@ You can reload the formats.yml with /nmb extensions reloadconfig SimpleChat
 
 The options pretty much explain themselves.
 
-{% tabs %}
-{% tab title="formats.yml" %}
+{% code title="formats.yml" %}
 ```yaml
 crossServerChat: false
 
@@ -24,6 +23,5 @@ default:
   nameClickCommand: ''
   suffixClickCommand: ''
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
