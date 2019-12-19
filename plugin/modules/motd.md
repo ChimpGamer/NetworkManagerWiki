@@ -1,7 +1,5 @@
 # MOTD
 
-
-
 ![](../../.gitbook/assets/snap1.png)
 
 * Select ID - Here you can select the other MOTD's you created.
