@@ -10,18 +10,19 @@ The options pretty much explain themselves.
 ```yaml
 crossServerChat: false
 
-default:
-  prefix: '&8[%prefix%&8] '
-  name: '%username%'
-  suffix: ' &8» '
-  chatColor: '&7'
-  prefixTooltip: []
-  nameTooltip:
-  - '&eExample tooltip of &6%playername%'
-  suffixTooltip: []
-  prefixClickCommand: ''
-  nameClickCommand: ''
-  suffixClickCommand: ''
+formats:
+  default:
+    prefix: '&8[%prefix%&8] '
+    name: '%username%'
+    suffix: ' &8» '
+    chatColor: '&7'
+    prefixTooltip: []
+    nameTooltip:
+    - '&eExample tooltip of &6%playername%'
+    suffixTooltip: []
+    prefixClickCommand: ''
+    nameClickCommand: ''
+    suffixClickCommand: ''
 ```
 {% endcode %}
 
