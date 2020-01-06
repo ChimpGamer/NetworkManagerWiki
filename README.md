@@ -30,7 +30,7 @@ extentions you can make managing you server easier.
 
 {% page-ref page="plugin/extensions/bukkit-tags.md" %}
 
-{% page-ref page="plugin/extensions/restapi.md" %}
+{% page-ref page="plugin/extensions/restapi/" %}
 {% endtab %}
 
 {% tab title="Commands" %}
