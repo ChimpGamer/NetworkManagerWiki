@@ -90,3 +90,32 @@ networkmanager.maintenance.status,
 **Permissions:** networkmanager.tickets
 {% endhint %}
 
+{% hint style="info" %}
+###  Reports
+
+**Usage:** /reports  
+**Permissions:** networkmanager.reports
+{% endhint %}
+
+{% hint style="info" %}
+###  BanList
+
+**Usage:** /banlist \(page\)  
+**Permissions:** networkmanager.banlist
+{% endhint %}
+
+{% hint style="info" %}
+###  History
+
+**Usage:** /history \[name\] \(page\)  
+**Permissions:** networkmanager.history
+{% endhint %}
+
+{% hint style="info" %}
+###  Warnings
+
+**Usage:** /warnings \[page/player\] \(page\)  
+**Aliases:** /warns  
+**Permissions:** networkmanager.warnings
+{% endhint %}
+
