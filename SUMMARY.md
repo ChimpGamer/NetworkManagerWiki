@@ -47,8 +47,6 @@
       * [Handlers](plugin/extensions/restapi/handlers.md)
   * [Menus](plugin/menus/README.md)
     * [LanguageMenu](plugin/menus/languagemenu.md)
-  * [PluginHooks](plugin/pluginhooks/README.md)
-    * [LeaderHeads](plugin/pluginhooks/leaderheads.md)
 * [Web Interface](web-interface/README.md)
   * [Addons](web-interface/addons/README.md)
     * [serverStats-Legacy](web-interface/addons/serverstats-legacy.md)
