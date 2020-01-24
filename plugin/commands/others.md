@@ -119,3 +119,19 @@ networkmanager.maintenance.status,
 **Permissions:** networkmanager.warnings
 {% endhint %}
 
+{% hint style="info" %}
+###  WhereAmI
+
+**Usage:** /whereami  
+**Aliases:** /iamlost  
+**Permissions:** networkmanager.whereami
+{% endhint %}
+
+{% hint style="info" %}
+### Lockdown
+
+**Usage:** /lockdown  
+**Aliases:** /iamlost  
+**Permissions:** networkmanager.whereami
+{% endhint %}
+
