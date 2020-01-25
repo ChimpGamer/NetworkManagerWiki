@@ -131,7 +131,6 @@ networkmanager.maintenance.status,
 ### Lockdown
 
 **Usage:** /lockdown  
-**Aliases:** /iamlost  
-**Permissions:** networkmanager.whereami
+**Permissions:** networkmanager.lockdown
 {% endhint %}
 
