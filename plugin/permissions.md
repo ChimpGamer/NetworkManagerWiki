@@ -108,9 +108,6 @@ Others:
 * networkmanager.notification.join
 * networkmanager.fullproxy.bypass
 * networkmanager.tabcompletechat
-* networkmanager.reports.gui
-* networkmanager.lookup.gui
-* networkmanager.punishment.gui
 * networkmanager.tags.gui
 * networkmanager.tags.create
 * networkmanager.tags.delete
