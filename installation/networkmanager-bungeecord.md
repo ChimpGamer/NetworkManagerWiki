@@ -18,7 +18,11 @@
 6. Restart your BungeeCord server. It will now create tables and insert some data into it.
 7. Execute /nm test database to test the connection. If the command is unknown check your bungeecord console.
 
-NOTE: Don't join the server yet! After you installed the WebInterface go to the Settings and search for servermode. Make sure you've set the correct servermode. You can choose: ONLINE, OFFLINE or MIXED.
+{% hint style="danger" %}
+Don't join the server yet! After you installed the WebInterface go to the Settings and search for servermode. Make sure you've set the correct servermode.   
+  
+You can choose: ONLINE, OFFLINE or MIXED.
+{% endhint %}
 
 ### Settings explained
 
