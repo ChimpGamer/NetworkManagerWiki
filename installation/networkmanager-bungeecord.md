@@ -16,7 +16,7 @@
 4. Enter your MySQL host, port, username, password and database.
 5. \(Optional\) Enable Redis. Enter redis host and password if you set one.
 6. Restart your BungeeCord server. It will now create tables and insert some data into it.
-7. Execute /nm test database to test the connection. If the command is unknown check your bungeecord console.
+7. Execute "nm test database" in the console to test the connection. If the command is unknown check your bungeecord log.
 
 {% hint style="danger" %}
 Don't join the server yet! After you installed the WebInterface go to the Settings and search for servermode. Make sure you've set the correct servermode.   
