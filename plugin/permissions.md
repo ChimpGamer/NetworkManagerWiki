@@ -96,7 +96,6 @@ Others:
 * networkmanager.seen
 * networkmanager.socialspy
 * networkmanager.staffchat
-* networkmanager.staff
 * networkmanager.slashserver.\[servername\]
 * networkmanager.slashserver.\*
 * networkmanager.tickets
