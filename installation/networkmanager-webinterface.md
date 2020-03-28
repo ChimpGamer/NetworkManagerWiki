@@ -5,6 +5,7 @@
 1. Web Server that supports PHP 7.x
 2. MySQL Server with a database and a user account. \(If your MySQL Server is on a other server then your Web Server you need to allow remote connections on your MySQL Server.\) \(MariaDB 10 Recommended \(MariaDB is a fork of MySQL\)\).
 3. Connected the plugin \(NetworkManager BungeeCord\) to MySQL. _This is required so that the database is populated._
+4. The NetworkManager Web Interface files from the discord server.
 
 ### Installation
 
