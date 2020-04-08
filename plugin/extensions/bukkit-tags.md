@@ -19,13 +19,13 @@
 
 ### Commands
 
-`/tags (Page) - Opens the Tags GUI`  
-`/tags create <Tagname> <Tag> (Server)`  
-`/tags delete <Tagname>`  
-`/tags setdesc <Tagname> <Description>`  
-`/tags set <Username> <Tagname>`  
-`/tags unset/clear <Username>`  
-`/tags permissions <Tagname/TagId>`
+`/tags (Page) - Opens the Tags GUI (permission: networkmanager.tags.gui)`  
+`/tags create <Tagname> <Tag> (Server) (permission: networkmanager.tags.create)`  
+`/tags delete <Tagname> (permission: networkmanager.tags.delete)`  
+`/tags setdesc <Tagname> <Description> (permission: networkmanager.tags.setdescription)`  
+`/tags set <Username> <Tagname> (permission: networkmanager.tags.set)`  
+`/tags unset/clear <Username> (permission: networkmanager.tags.unset)`  
+`/tags permission <Tagname/TagId> (permission: networkmanager.tags.permission)`
 
 The server parameter can be replaced with "all" to indicate a global setting. Parameters within \(\)'s are optional parameters. Parameters within &lt;&gt;'s are required.
 
