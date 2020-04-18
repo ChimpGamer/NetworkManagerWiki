@@ -53,7 +53,8 @@ public class NetworkManagerAPIHook {
     public NetworkManagerAPIHook(YourMainClass yourMainClass) {
         Plugin plugin = mainClass.getServer().getPluginManager().getPlugin("NetworkManager");
         if (plugin != null) {
-            networkManager= (NetworkManagerPlugin) plugin;
+            networkManager = (NetworkManagerPlugin) plugin;
+			yourMainClass.getLogger().info("Hooked into NetworkManager");
         }
     }
     
@@ -62,7 +63,7 @@ public class NetworkManagerAPIHook {
      * @return The NetworkManager CacheManager.
 	 */
     public CacheManager getCacheManager() {
-        return getNetworkManager().getCacheManager();
+        return networkManager.getCacheManager();
     }
     
     /**
@@ -90,7 +91,7 @@ public class NetworkManagerAPIHook {
      * @since 2.5.0
 	 */
     public PermissionPlayer getPermissionsPlayer(UUID uuid) {
-        return getNetworkManager().getPermissionManager().getPermissionPlayer(uuid);
+        return networkManager.getPermissionManager().getPermissionPlayer(uuid);
     }
  
     /**
@@ -100,10 +101,6 @@ public class NetworkManagerAPIHook {
 	 */
     public List<Group> getPlayerGroups(UUID uuid) {
         return getPermissionsPlayer(uuid).getGroups();
-    }
- 
-    private NetworkManagerPlugin getNetworkManager() {
-        return networkManager;
     }
 }
 ```
