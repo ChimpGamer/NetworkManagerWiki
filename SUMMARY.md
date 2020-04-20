@@ -41,6 +41,7 @@
     * [RedisBungee](plugin/placeholders/redisbungee.md)
   * [Extensions](plugin/extensions/README.md)
     * [DiscordBot](plugin/extensions/discordbot.md)
+    * [DiscordBot - BETA](plugin/extensions/discordbot-beta.md)
     * [Tags](plugin/extensions/bukkit-tags.md)
     * [SimpleChat](plugin/extensions/simplechat.md)
     * [RestAPI](plugin/extensions/restapi/README.md)
