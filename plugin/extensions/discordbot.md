@@ -1,13 +1,5 @@
 # DiscordBot
 
-## How to use?
-
-1. Download the extension from the Discord server.
-2. Drop the extension jar in the extensions folder on your BungeeCord server.
-3. Restart your BungeeCord server.
-4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a texteditor. \(The most important things are the token and the guildId\)
-5. Restart your BungeeCord server and if you configured it right you should see the discord bot online in your discord server.
-
 ## Features
 
 * Verification system to connect Discord accounts with MC accounts.
@@ -17,6 +9,14 @@
 * Configurable command prefix.
 * Receive notification from several events like HelpOP requests, Punishments or Server status changes.
 * Make the bot send messages from all mc servers or just one to a specific discord channel.
+
+## How to install?
+
+1. Download the extension from the Discord server.
+2. Drop the extension jar in the extensions folder on your BungeeCord server.
+3. Restart your BungeeCord server.
+4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a texteditor. \(The most important things are the token and the guildId\)
+5. Restart your BungeeCord server and if you configured it right you should see the discord bot online in your discord server.
 
 ## How do I link my discord account?
 
