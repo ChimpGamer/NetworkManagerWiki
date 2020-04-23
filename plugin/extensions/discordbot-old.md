@@ -1,4 +1,4 @@
-# DiscordBot - BETA
+# DiscordBot - OLD
 
 ## How to use?
 
@@ -22,25 +22,21 @@
 
 1. PM the discord bot "!register".
 2. The bot will send you a key you have to copy.
-3. Then you execute /register &lt;key&gt; in-game and you will be verified. \(Permission: networkmanager.bot.register\)
+3. Then you execute /verify &lt;key&gt; in-game and you will be verified. \(Permission: networkmanager.bot.verify\)
 4. The key message got edited by the bot telling you the verification process has succeeded.
 
 ## Commands
 
 !register - PM to Bot Only  
+!unregister - PM to Bot Only  
 !players/!online/!onlineplayers  
-!playtime  
-!uptime
+!playtime
 
 In-game:  
 - /bug - networkmanager.bot.bug  
 - /suggestion - networkmanager.bot.suggestion  
-- /register - networkmanager.bot.register  
-- /unregister - networkmanager.bot.unregister  
 - /discord - no permission  
 - /nmbot - networkmanager.admin
-
-NOTE: Some commands can be changed in the configuration
 
 ## Extras
 
