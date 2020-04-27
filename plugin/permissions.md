@@ -21,23 +21,6 @@ Colors:
 
 Punishments:
 
-* networkmanager.punishment.gban.alert
-* networkmanager.punishment.gtempban.alert
-* networkmanager.punishment.gipban.alert
-* networkmanager.punishment.gmute.alert
-* networkmanager.punishment.gtempmute.alert
-* networkmanager.punishment.gipmute.alert
-* networkmanager.punishment.gkick.alert
-* networkmanager.punishment.ban.alert
-* networkmanager.punishment.tempban.alert
-* networkmanager.punishment.ipban.alert
-* networkmanager.punishment.mute.alert
-* networkmanager.punishment.tempmute.alert
-* networkmanager.punishment.ipmute.alert
-* networkmanager.punishment.kick.alert
-* networkmanager.punishment.warn.alert
-* networkmanager.punishment.report.alert
-* networkmanager.punishment.note.alert
 * networkmanager.punishment.gban.exampt
 * networkmanager.punishment.gtempban.exampt
 * networkmanager.punishment.gipban.exampt
@@ -71,8 +54,6 @@ Others:
 * networkmanager.clearchat.\*
 * networkmanager.find
 * networkmanager.gtps
-* networkmanager.helpop
-* networkmanager.helpop.notify
 * networkmanager.notify.ticket.new
 * networkmanager.lookup
 * networkmanager.lookup.ip

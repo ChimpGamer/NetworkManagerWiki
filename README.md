@@ -4,7 +4,7 @@ description: >-
   website.
 ---
 
-# NetworkManager Documentation
+# NetworkManager
 
 We are here to help, and if you can't find a solution to your problem you can always join our discord at:   
 [https://discord.gg/jpGWNqA](https://discord.gg/jpGWNqA)
@@ -28,9 +28,9 @@ These are extentions that are implemented in NetworkManager. With these
 extentions you can make managing you server easier.
 {% endhint %}
 
-{% page-ref page="plugin/extensions/bukkit-tags.md" %}
+{% page-ref page="networkmanager-plugin/extensions/bukkit-tags.md" %}
 
-{% page-ref page="plugin/extensions/restapi/" %}
+{% page-ref page="networkmanager-plugin/extensions/restapi/" %}
 {% endtab %}
 
 {% tab title="Commands" %}
@@ -38,7 +38,7 @@ extentions you can make managing you server easier.
 Here you can find the commands that are included in NetworkManager.
 {% endhint %}
 
-{% page-ref page="plugin/commands/" %}
+{% page-ref page="networkmanager-plugin/commands/" %}
 {% endtab %}
 
 {% tab title="ServerManager" %}
@@ -46,7 +46,7 @@ Here you can find the commands that are included in NetworkManager.
 When using servermanager you can easily acces your console or connect to the minecraft chat of your server.
 {% endhint %}
 
-{% page-ref page="plugin/modules/servermanager.md" %}
+{% page-ref page="networkmanager-plugin/modules/servermanager.md" %}
 {% endtab %}
 
 {% tab title="API" %}
@@ -54,9 +54,9 @@ When using servermanager you can easily acces your console or connect to the min
 This is a section for developers, it doesn't hurt to take a look. But if you don't know about programming it's probably not a place for you. You can still look it you want :\)
 {% endhint %}
 
-{% page-ref page="plugin/api/hook-into-the-api.md" %}
+{% page-ref page="networkmanager-plugin/api/hook-into-the-api.md" %}
 
-{% page-ref page="plugin/api/create-a-punishment.md" %}
+{% page-ref page="networkmanager-plugin/api/create-a-punishment.md" %}
 {% endtab %}
 {% endtabs %}
 

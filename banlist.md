@@ -1,6 +1,6 @@
 # BanList
 
-The banlist isn't an addon of the Web Interface!
+**NOTE:** The banlist isn't an addon of the Web Interface!
 
 ## How to install it?
 

@@ -1,6 +1,6 @@
 # TicketSystem
 
-The TicketSystem isn't an addon of the Web Interface!
+**NOTE:** The TicketSystem isn't an addon of the Web Interface!
 
 ## How to install it?
 
