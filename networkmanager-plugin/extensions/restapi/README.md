@@ -4,7 +4,7 @@ This still has to be completed but it's enough for basic usage.
 
 ## How to use?
 
-1. Enable the RestAPI in the settings.yml \(NetworkManager BungeeCord\).
+1. Enable the RestAPI in the settings.yml of the RestAPI extension \(NetworkManager BungeeCord\).
 2. Make sure the port you are using is open \(free\) and not blocked by the firewall.
 3. Copy the secret. Open the WebInterface and go to settings. Paste the secret in the "secret" text field.
 4. Enter the a valid api url. Like [http://yourbungeecordserver.com:4777](http://google.nl:777/) or if you use https://[yourbungeecordserver.com](http://google.nl:777/)[:8777](https://google.nl:8777/).

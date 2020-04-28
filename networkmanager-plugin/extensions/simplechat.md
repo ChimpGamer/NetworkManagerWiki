@@ -1,12 +1,12 @@
 # SimpleChat
 
-This is the default formats.yml. In this file you can create as much formats as you want. To allow a player to use a format you'll have to give them the permission: simplechat.format.&lt;formatName&gt;.
+This is the default settings.yml. In this file you can create as much formats as you want. To allow a player to use a format you'll have to give them the permission: simplechat.format.&lt;formatName&gt;.
 
-You can reload the formats.yml with /nmb extensions reloadconfig SimpleChat
+You can reload the settings.yml with /nmb extensions reloadconfig SimpleChat
 
 The options pretty much explain themselves.
 
-{% code title="formats.yml" %}
+{% code title="settings.yml" %}
 ```yaml
 crossServerChat: false
 
@@ -23,6 +23,7 @@ formats:
     prefixClickCommand: ''
     nameClickCommand: ''
     suffixClickCommand: ''
+    priority: 100
 ```
 {% endcode %}
 
