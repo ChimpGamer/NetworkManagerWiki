@@ -19,13 +19,37 @@
 
 ### Commands
 
-`/tags (Page) - Opens the Tags GUI (permission: networkmanager.tags.gui)`  
-`/tags create <Tagname> <Tag> (Server) (permission: networkmanager.tags.create)`  
-`/tags delete <Tagname> (permission: networkmanager.tags.delete)`  
-`/tags setdesc <Tagname> <Description> (permission: networkmanager.tags.setdescription)`  
-`/tags set <Username> <Tagname> (permission: networkmanager.tags.set)`  
-`/tags unset/clear <Username> (permission: networkmanager.tags.unset)`  
-`/tags permission <Tagname/TagId> (permission: networkmanager.tags.permission)`
+`/tags (page)`   
+**Permission**: networkmanager.tags.gui  
+Opens the Tags GUI
+
+`/tags create [tagName] [tag] (server)`   
+**Permission**: networkmanager.tags.create  
+Create a tag with the specified arguments
+
+`/tags delete [tagName]`   
+**Permission**: networkmanager.tags.delete  
+Delete a tag
+
+`/tags setdesc [tagName] [description]`   
+**Permission**: networkmanager.tags.setdescription  
+Set the description for a tag
+
+`/tags set [userName] [tagName]`   
+**Permission**: networkmanager.tags.set  
+Set the tag for a player
+
+`/tags unset/clear [userName]`   
+**Permission**: networkmanager.tags.set  
+Remove the current tag from a player
+
+`/tags permission [tagName/tagId]`   
+**Permission**: networkmanager.tags.permission  
+Get the permission of a tag
+
+`/tags reload (tagId)`   
+**Permission**: networkmanager.tags.reload  
+Reload tag\(s\)
 
 The server parameter can be replaced with "all" to indicate a global setting. Parameters within \(\)'s are optional parameters. Parameters within &lt;&gt;'s are required.
 
