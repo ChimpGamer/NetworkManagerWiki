@@ -51,7 +51,7 @@ Get the permission of a tag
 **Permission**: networkmanager.tags.reload  
 Reload tag\(s\)
 
-The server parameter can be replaced with "all" to indicate a global setting. Parameters within \(\)'s are optional parameters. Parameters within &lt;&gt;'s are required.
+The server parameter can be replaced with "all" to indicate a global setting. Parameters within \(\)'s are optional parameters. Parameters within \[\]'s are required.
 
 ### Tips
 
