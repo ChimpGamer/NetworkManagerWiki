@@ -6,6 +6,7 @@
 
 This error could be caused by:
 
+* You'll have to set bungeecord to true in the spigot.yml of the server you're connecting to.
 * Another kick cause like: - "ChimpGamer disconnected with: You are already connected to this proxy!". \(To confirm this you can check your BungeeCord & spigot console\).
 * If the user is new and it took too long for MySQL to handle the load it could be that when you login for the first time you'll get this error. Check the latency between your MySQL server and BungeeCord/Spigot server\(s\).
 
