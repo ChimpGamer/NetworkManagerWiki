@@ -42,7 +42,14 @@ In-game:
 
 NOTE: Some commands can be changed in the configuration
 
-## Extras
+## Placeholders
 
-Did you know that when you are using the DiscordBot extension you can use the %discordbot\_users% in announcements? This allows you to make an announcement like: %discordbot\_users% already players already registered on our discord server! Will you be the next one?
+DiscordBot adds a couple of placeholders to NetworkManager. You can use those placeholders in announcements or other messages.
+
+| Placeholder | Description |
+| :--- | :--- |
+| %discordbot\_guild\_id% | Returns the ID of the Discord guild |
+| %discordbot\_guild\_name% | Returns the name of the Discord guild |
+| %discordbot\_members\_online% | Returns the amount of online members |
+| %discordbot\_members\_total% | Returns the amount of total members |
 
