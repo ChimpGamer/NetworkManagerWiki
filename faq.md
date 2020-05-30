@@ -1,3 +1,7 @@
+---
+description: A place to find all the Frequently Asked Questions Regarding NetworkManager.
+---
+
 # FAQ
 
 ## Commonly Asked Questions:
