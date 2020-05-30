@@ -62,6 +62,7 @@ Others:
 * networkmanager.maintenance.enable
 * networkmanager.maintenance.disable
 * networkmanager.maintenance.status
+* networkmanager.maintenance.bypass
 * networkmanager.maintenance.\*
 * networkmanager.msg
 * networkmanager.nickname
@@ -84,7 +85,6 @@ Others:
 * networkmanager.anticaps.bypass
 * networkmanager.antispam.bypass
 * networkmanager.commandblocker.bypass
-* networkmanager.maintenance.bypass
 * networkmanager.notification.join
 * networkmanager.fullproxy.bypass
 * networkmanager.tabcompletechat
