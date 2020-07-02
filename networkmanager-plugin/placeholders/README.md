@@ -61,4 +61,5 @@
 | Placeholder | Description |
 | :--- | :--- |
 | %date% | Returns the current date. Can be changed by changing lang\_date\_format |
+| {newline} | Incase %newline% breaks the motd when using % as in 50% off or something you can use this |
 
