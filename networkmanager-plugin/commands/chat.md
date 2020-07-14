@@ -70,3 +70,10 @@
 **Permission:** networkmanager.commandspy
 {% endhint %}
 
+{% hint style="info" %}
+###  **Ignore**
+
+**Usage:** /ignore  
+**Exempt Permission:** networkmanager.ignore.exempt
+{% endhint %}
+
