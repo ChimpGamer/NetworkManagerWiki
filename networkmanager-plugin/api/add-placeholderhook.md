@@ -4,9 +4,13 @@ Through the API you can add PlaceholderHooks in NetworkManager. You'll have to e
 
 ```java
 public PlaceholderHookExample expands PlaceholderHook {
+
+    public PlaceholderHookEample(NetworkManagerPlugin networkManager) {
+        networkmanager.getPlaceholderManager().registerPlaceholder(this);
+    }
     
     @Override
-    public String onPlaceholderRequest(String identifier) {
+    public String onPlaceholderRequest(Player player, String identifier) {
         if (identifier.equalsIgnorecases("test")) {
             return "ExampleValue"; //So if the placeholder %example_test% get's requested it will return this.
         }

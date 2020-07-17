@@ -45,7 +45,7 @@ networkmanager.maintenance.status,
 ###  Nickname
 
 **Usage:** /nick \[off/reset/username/nickname\]  
-**Permissions:** networkmanager.nickname, networkmanager.nickname.other
+**Permissions:** networkmanager.nickname, networkmanager.nickname.other, networkmanager.nickname.colorcodes
 {% endhint %}
 
 {% hint style="info" %}
