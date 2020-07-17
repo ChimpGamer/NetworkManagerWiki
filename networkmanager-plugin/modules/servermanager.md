@@ -75,6 +75,8 @@ NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
 
+* 1.16.1
+* 1.16
 * 1.15.2
 * 1.15.1
 * 1.15
