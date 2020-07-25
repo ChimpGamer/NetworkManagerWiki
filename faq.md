@@ -22,7 +22,7 @@ This error could be caused by:
 
 ## How do I update the Web Interface?
 
-You can use this update script \(link\) written by  [Daniel Markink](https://github.com/DanielMarkink).
+You can use this update script \([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel_update.sh)\) written by  [Daniel Markink](https://github.com/DanielMarkink).
 
   
 You can also download the zip manually, back-up the config.php \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
