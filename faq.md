@@ -22,8 +22,10 @@ This error could be caused by:
 
 ## How do I update the Web Interface?
 
-You can use this update script \(link\) written by  [Daniel Markink](https://github.com/DanielMarkink).  
-You can also download the zip manually, back-up the config.php \(located at inc/php/dep/protected/config.php\) and the settings.json \(located at inc/json/protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
+You can use this update script \(link\) written by  [Daniel Markink](https://github.com/DanielMarkink).
+
+  
+You can also download the zip manually, back-up the config.php \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
 Another option is to remove all files, upload the new files, run the install.php and skip the create user part. Make sure to follow the WebInterface installation steps [here](https://networkmanager.gitbook.io/wiki/installation/networkmanager-webinterface).
 
 
