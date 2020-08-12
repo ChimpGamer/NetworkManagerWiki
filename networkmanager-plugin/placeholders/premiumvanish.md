@@ -8,5 +8,6 @@ description: 'NOTE: These work on BungeeCord ONLY!'
 %premiumvanish_isvanished%
 %premiumvanish_vanishedplayers%
 %premiumvanish_bungeeplayercount%
+%premiumvanish_serverplayercount_<server>%
 ```
 
