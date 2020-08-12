@@ -18,6 +18,8 @@
 4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a texteditor. \(The most important things are the token and the guildId\)
 5. Restart your BungeeCord server and if you configured it right you should see the discord bot online in your discord server.
 
+Check: [https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting](https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting)
+
 ## How do I link my discord account?
 
 1. PM the discord bot "!register".

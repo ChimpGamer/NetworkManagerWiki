@@ -29,7 +29,6 @@
   * [Permissions](networkmanager-plugin/commands/permissions.md)
   * [Punishments](networkmanager-plugin/commands/punishments.md)
 * [Extensions](networkmanager-plugin/extensions/README.md)
-  * [DiscordBot - OLD](networkmanager-plugin/extensions/discordbot-old.md)
   * [DiscordBot](networkmanager-plugin/extensions/discordbot.md)
   * [Tags](networkmanager-plugin/extensions/bukkit-tags.md)
   * [SimpleChat](networkmanager-plugin/extensions/simplechat.md)
