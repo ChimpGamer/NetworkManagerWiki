@@ -6,7 +6,7 @@ Get Player by UUID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get player data by UUID
+Retrieves data of the player by UUID.
 {% endapi-method-description %}
 
 {% api-method-spec %}
