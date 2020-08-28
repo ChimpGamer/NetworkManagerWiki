@@ -13,13 +13,13 @@ This endpoint allows you to get player data by UUID
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="uuid" type="string" required=true %}
-ID of the cake to get, for free of course.
+uuid of the player.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
+Authentication token for Basic authentication.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
