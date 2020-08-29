@@ -52,7 +52,7 @@ Could not find a player matching this query.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Could not find player by uuid: bfae0d10-b2de-44d8-b6c9-e70387cc3ae"}
+{"message": "Could not find player by uuid: bfae0d10-b2de-44d8-b6c9-e70387cc3ae"}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
