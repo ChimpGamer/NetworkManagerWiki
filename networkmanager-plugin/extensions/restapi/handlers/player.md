@@ -37,7 +37,8 @@ Authentication token for Basic authentication.
     "server": "Survival",
     "version": "1.16.2",
     "language": "English",
-    "playtime": 2632371610
+    "playtime": 2632371610,
+    "groups": []
 }
 ```
 {% endapi-method-response-example %}
