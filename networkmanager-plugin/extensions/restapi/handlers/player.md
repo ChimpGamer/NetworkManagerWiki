@@ -38,6 +38,9 @@ Authentication token for Basic authentication.
     "version": "1.16.2",
     "language": "English",
     "playtime": 2632371610,
+    "firslogin": 1550923060710,
+    "lastlogin": 1597251171109,
+    "lastlogout": 1597254899037,
     "groups": []
 }
 ```
