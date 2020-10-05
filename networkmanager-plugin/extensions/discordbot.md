@@ -15,8 +15,10 @@
 1. Download the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your BungeeCord server.
 3. Restart your BungeeCord server.
-4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a texteditor. \(The most important things are the token and the guildId\)
+4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a text editor. \(The most important things are the token and the guildId\)
 5. Restart your BungeeCord server and if you configured it right you should see the discord bot online in your discord server.
+
+NOTE: Make sure you check this: [https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting\#im-getting-closecode4014--disallowed-intents](https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting#im-getting-closecode4014--disallowed-intents) and enable "SERVER MEMBERS INTENT"!
 
 Check: [https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting](https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting)
 
