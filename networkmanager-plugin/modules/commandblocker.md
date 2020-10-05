@@ -15,7 +15,7 @@ Example: ^/kill\b #This blocks /kill but not /killall
 If you want to block /? for example you can use \/\?
 
 Want to block all commands that contain a : ? No problem!
-Just use [:] and it will block commands like bukkit:about and bukkit:plugins
+Just use (^\/)[\w]+:\b and it will block commands like bukkit:about and bukkit:plugins
 ```
 
 You can test your regex expressions at an online website like: [https://regexr.com/](https://regexr.com/)
