@@ -71,7 +71,7 @@ Others:
 * networkmanager.ping.other
 * networkmanager.ping.\*
 * networkmanager.playtime
-* networkmanager.playtime.other
+* networkmanager.playtime.others
 * networkmanager.playtime.top
 * networkmanager.playtime.\*
 * networkmanager.reports
