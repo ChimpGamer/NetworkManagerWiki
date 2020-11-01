@@ -1,3 +1,7 @@
+---
+description: Only applies to RestAPI v2.0.0 and newer
+---
+
 # RestAPI
 
 This still has to be completed but it's enough for basic usage.
