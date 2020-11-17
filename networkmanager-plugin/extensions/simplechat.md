@@ -10,6 +10,10 @@ The options pretty much explain themselves.
 ```yaml
 crossServerChat: false
 
+itemKeywords:
+  - '[item]'
+  - '{item}'
+
 formats:
   default:
     prefix: '&8[%prefix%&8] '
