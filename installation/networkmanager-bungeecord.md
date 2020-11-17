@@ -29,38 +29,29 @@ You can choose: ONLINE, OFFLINE or MIXED.
 The settings.yml has a couple of settings.
 
 ```yaml
-networkmanager:
-  mysql:
-    storage: MYSQL # You can choose MYSQL OR MARIADB
-    host: localhost # The IP or DNS-name of your MYSQL server.
-    port: 3306 # The port of your MYSQL server.
-    database: db_NetworkManager # The database you created for NetworkManager on your MYSQL server
-    username: NetworkManager # The username that has access to the database
-    password: NetworkManager # The password for the account on your MYSQL server.
-    pool-settings: # Don't touch the pool-settings unless you know what you are doing!
-      maximum-size: 10 
-      minimum-idle: 10
-      maximum-lifetime: 180000
-      connection-timeout: 5000
-    usessl: false
-  redis:
-    enabled: false # Enable Redis if you have a redis server.
-    host: localhost # The IP or DNS-name of your redis server.
-    port: 6379 # The port of your redis server.
-    password: password # The password of your redis server.
-  rabbitmq:
-    enabled: true
-    host: localhost
-    port: 5672
-    username: username
-    password: password
-  updater:
-    enabled: false # Enable the spigot updater (This has to be enabled if you want to use the /nm update command)
-    username: '' # Your spigot username.
-    password: '' # Your spigot password
-    2fasecret: '' # Your 2fa secrect (You only have to fill this in if you have 2fa enabled).
-  updatechecker: true # This will check if there is an update for NetworkManager available and will notify you about it!
-  debug: true # Enabled/Disable debugging. Debugging can help you to find some issues or get extra information in your server console.
+storage:
+  type: MYSQL # You can choose between MYSQL or MARIADB
+  host: localhost
+  port: 3306
+  username: NetworkManager
+  password: NetworkManager
+  database: NetworkManager
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+redis:
+  enabled: true
+  host: localhost
+  port: 6379
+  password: ''
+rabbitmq:
+  enabled: false
+  host: localhost
+  port: 5672
+  username: ''
+  password: ''
 ```
 
 ### Common issues
