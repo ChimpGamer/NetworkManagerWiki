@@ -36,6 +36,7 @@ Authentication token for Basic authentication.
     "uuid": "acb4cbcb-0824-4e60-b578-0fe604008bb0",
     "server": "Survival",
     "version": "1.16.2",
+    "nickname": "Peter",
     "language": "English",
     "playtime": 2632371610,
     "firslogin": 1550923060710,

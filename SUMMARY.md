@@ -33,6 +33,7 @@
   * [PlayerNameList](networkmanager-plugin/extensions/playernamelist.md)
   * [RestAPI](networkmanager-plugin/extensions/restapi/README.md)
     * [Routes](networkmanager-plugin/extensions/restapi/handlers/README.md)
+      * [OnlinePlayers](networkmanager-plugin/extensions/restapi/handlers/onlineplayers.md)
       * [Player](networkmanager-plugin/extensions/restapi/handlers/player.md)
   * [SimpleChat](networkmanager-plugin/extensions/simplechat.md)
   * [Tags](networkmanager-plugin/extensions/bukkit-tags.md)
