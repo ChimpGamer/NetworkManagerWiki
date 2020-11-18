@@ -21,11 +21,11 @@ public void createPunishment(Player player) {
         final CachedPunishments cachedPunishments = this.getNetworkManager().getCacheManager().getCachedPunishments();
         Punishment.Builder punishmentBuilder = cachedPunishments.createPunishmentBuilder();
         Punishment punishment = punishmentBuilder
-                .setType(Punishment.Type.GBAN)
-                .setUuid(UUID.fromString("uuid-here"))
-                .setPunisher(UUID.fromString("uuid-of-punisher-here"))
-                .setTime(System.currentTimeMillis())
-                .setReason("Just a simple reason here.")
+                .type(Punishment.Type.GBAN)
+                .uuid(UUID.fromString("uuid-here"))
+                .punisher(UUID.fromString("uuid-of-punisher-here"))
+                .time(System.currentTimeMillis())
+                .reason("Just a simple reason here.")
                 .build();
         punishment.punish();
         
