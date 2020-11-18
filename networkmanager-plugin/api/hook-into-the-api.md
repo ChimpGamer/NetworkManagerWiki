@@ -16,7 +16,7 @@ public class MainClass extends JavaPlugin {
 	public void onEnable() {
 		if (this.getServer().getPluginManager().getPlugin("NetworkManager") != null) {
 			this.nmApiHook = new NetworkManagerAPIHook(this);
-        }
+  	}
 	}
 	
 	public void onDisable() {
@@ -51,11 +51,9 @@ public class NetworkManagerAPIHook {
     private NetworkManagerPlugin networkManager;
  
     public NetworkManagerAPIHook(YourMainClass yourMainClass) {
-        Plugin plugin = mainClass.getServer().getPluginManager().getPlugin("NetworkManager");
-        if (plugin != null) {
-            networkManager = (NetworkManagerPlugin) plugin;
-			yourMainClass.getLogger().info("Hooked into NetworkManager");
-        }
+        // Throws IllegalStateException if API is not ready yet.
+        networkManager = NetworkManagerProvider.get();
+   			yourMainClass.getLogger().info("Hooked into NetworkManager");
     }
     
     /**
