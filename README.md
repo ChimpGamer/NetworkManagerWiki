@@ -24,13 +24,21 @@ It's recommended to do this step by step. Make sure you did all 3 of them.
 
 {% tab title="Extensions" %}
 {% hint style="info" %}
-These are extentions that are implemented in NetworkManager. With these   
-extentions you can make managing you server easier.
+These are extensions that are implemented in NetworkManager. With these   
+extensions you can make managing you server easier.
 {% endhint %}
 
 {% page-ref page="networkmanager-plugin/extensions/bukkit-tags.md" %}
 
 {% page-ref page="networkmanager-plugin/extensions/restapi/" %}
+
+{% page-ref page="networkmanager-plugin/extensions/simplechat.md" %}
+
+{% page-ref page="networkmanager-plugin/extensions/discordbot.md" %}
+
+{% page-ref page="networkmanager-plugin/extensions/playernamelist.md" %}
+
+{% page-ref page="networkmanager-plugin/extensions/twitter.md" %}
 {% endtab %}
 
 {% tab title="Commands" %}
