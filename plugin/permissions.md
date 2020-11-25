@@ -19,26 +19,6 @@ Colors:
 * networkmanager.color.white
 * networkmanager.color.rainbow
 
-Punishments:
-
-* networkmanager.punishment.gban.exampt
-* networkmanager.punishment.gtempban.exampt
-* networkmanager.punishment.gipban.exampt
-* networkmanager.punishment.gmute.exampt
-* networkmanager.punishment.gtempmute.exampt
-* networkmanager.punishment.gipmute.exampt
-* networkmanager.punishment.gkick.exampt
-* networkmanager.punishment.ban.exampt
-* networkmanager.punishment.tempban.exampt
-* networkmanager.punishment.ipban.exampt
-* networkmanager.punishment.mute.exampt
-* networkmanager.punishment.tempmute.exampt
-* networkmanager.punishment.ipmute.exampt
-* networkmanager.punishment.kick.exampt
-* networkmanager.punishment.warn.exampt
-* networkmanager.punishment.report.exampt
-* networkmanager.punishment.note.exampt
-
 Others:
 
 * networkmanager.notify.joinbanned
