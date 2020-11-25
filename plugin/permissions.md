@@ -19,6 +19,26 @@ Colors:
 * networkmanager.color.white
 * networkmanager.color.rainbow
 
+Punishments:
+
+* networkmanager.punishment.gban.exempt
+* networkmanager.punishment.gtempban.exempt
+* networkmanager.punishment.gipban.exempt
+* networkmanager.punishment.gmute.exempt
+* networkmanager.punishment.gtempmute.exempt
+* networkmanager.punishment.gipmute.exempt
+* networkmanager.punishment.gkick.exempt
+* networkmanager.punishment.ban.exempt
+* networkmanager.punishment.tempban.exempt
+* networkmanager.punishment.ipban.exempt
+* networkmanager.punishment.mute.exempt
+* networkmanager.punishment.tempmute.exempt
+* networkmanager.punishment.ipmute.exempt
+* networkmanager.punishment.kick.exempt
+* networkmanager.punishment.warn.exempt
+* networkmanager.punishment.report.exempt
+* networkmanager.punishment.note.exempt
+
 Others:
 
 * networkmanager.notify.joinbanned
