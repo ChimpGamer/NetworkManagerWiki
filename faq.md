@@ -38,7 +38,7 @@ INSERT INTO nm_language_messages(`language_id`, `key`, `message`, `plugin`, `ver
 
 You can fill what ever you want as version but that is mainly used to maintain the language messages used in NetworkManager.
 
-When you've added this language key you can create an announcement and simply put as message: `%message_announcement_discord%`
+When you've added this language key you go to the BungeeCord console and execute "nm reload languages". After you've done that you can create an announcement and simply set as message: `%message_announcement_discord%`
 
 \`\`
 
