@@ -28,5 +28,17 @@ You can use this update script \([link](https://github.com/ChimpGamer/NetworkMan
 You can also download the zip manually, back-up the config.php \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
 Another option is to remove all files, upload the new files, run the install.php and skip the create user part. Make sure to follow the WebInterface installation steps [here](https://networkmanager.gitbook.io/wiki/installation/networkmanager-webinterface).
 
+## How do I create an announcement in multiple languages?
 
+To achieve this you'll have to use the language system in NetworkManager. If you have multiple languages you have to create a language key for example: announcement\_discord and add this key to every language in the language messages table of NetworkManager. You can use this sql query to do this:
+
+```sql
+INSERT INTO nm_language_messages(`language_id`, `key`, `message`, `plugin`, `version`) SELECT `id`, `announcement_discord`, `Please join our discord https://discord.gg/12345`, `NetworkManager`, `1.0.0` FROM nm_languages;
+```
+
+You can fill what ever you want as version but that is mainly used to maintain the language messages used in NetworkManager.
+
+When you've added this language key you can create an announcement and simply put as message: `%message_announcement_discord%`
+
+\`\`
 
