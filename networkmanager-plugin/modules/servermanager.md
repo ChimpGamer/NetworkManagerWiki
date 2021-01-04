@@ -19,6 +19,14 @@ Also make sure you disable \`force\_default\_server\` in the config.yml of Bunge
 5. Click create and the Server will be added.
 6. Run the command /servermanager reload \(servername\) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
 
+## How to edit a server
+
+1. Go to the Web interface and click on Servers.
+2. Click on the orange edit icon.
+3. Change a setting.
+4. Press save when you're done.
+5. Run the command /servermanager reload \(servername\) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
+
 ## How to create a servergroup
 
 1. Go to the Web interface and click on Servers.
@@ -75,6 +83,9 @@ NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
 
+* 1.16.4
+* 1.16.3
+* 1.16.2
 * 1.16.1
 * 1.16
 * 1.15.2

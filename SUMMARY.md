@@ -57,6 +57,7 @@
   * [PremiumVanish](networkmanager-plugin/placeholders/premiumvanish.md)
   * [UltraPermissions](networkmanager-plugin/placeholders/ultrapermissions.md)
   * [RedisBungee](networkmanager-plugin/placeholders/redisbungee.md)
+* [Settings](networkmanager-plugin/settings.md)
 
 ## NetworkManager WebInterface
 

@@ -1,47 +1,18 @@
 # PermissionSystem
 
+## Configurations
+
+To enable the permission system you'll have to enable the permission modules. If you only want to use the permission system on BungeeCord you enable `module_permissions_bungee`. If you only want to use the permission system on Spigot you enable `module_permissions_spigot`. If you want to use the permission system on both you simply enable both modules.
+
+After you enabled or disabled one of these modules you'll have to restart the server.
+
+## Commands
+
+{% page-ref page="../commands/permissions.md" %}
+
+## Defaults
+
 The `[default]` user is like a template for all new users. So when a new user joins everything applied to \[default\] will apply on the new user.
-
-### Commands
-
-`/nmperms user <user>`  
- `/nmperms user <user> promote <ladder>`  
- `/nmperms user <user> demote <ladder>`  
- `/nmperms user <user> setrank <group>`  
- `/nmperms user <user> addgroup <group> (server) (expires)`  
- `/nmperms user <user> removegroup <group> (server) (expires)`  
- `/nmperms user <user> add <permission> (server) (world) (expires)`  
- `/nmperms user <user> remove <permission> (server) (world) (expires)`  
- `/nmperms user <user> clearperms`  
- `/nmperms user <user> delete`  
- `/nmperms user <user> create`  
- `/nmperms user <user> prefix set/remove <prefix>`  
- `/nmperms user <user> suffix set/remove <suffix>`  
- `/nmperms user <user> haspermission <permission> (server) (world)`  
- `/nmperms groups`  
- `/nmperms group <group>`  
- `/nmperms group <group> create (ladder) (rank)`  
- `/nmperms group <group> delete`  
- `/nmperms group <group> clearperms`  
- `/nmperms group <group> add <permission> (server) (world) (expires)`  
- `/nmperms group <group> remove <permission> (server) (world) (expires)`  
- `/nmperms group <group> parents add/remove <parent>`  
- `/nmperms group <group> prefix set <prefix> (server) | ... prefix remove (server)`  
- `/nmperms group <group> suffix set <suffix> (server) | ... suffix remove (server)`  
- `/nmperms group <group> setladder <ladder>`  
- `/nmperms group <group> setrank <rank>`  
- `/nmperms group <group> rename <name>`  
- `/nmperms group <group> haspermission <permission> (server) (world)`  
- `/nmperms group <group> members`  
- `/nmperms ladders`  
- `/nmperms haspermission <permission>`  
- `/nmperms reload | /nmperms globalreload`  
-
-
-All server and world parameters can be replaced by "all" to indicate a global setting.  
- When removing permissions or player groups, all server, world and expiry date parameters can be replaced by "any" to remove any occurrences of that parameter.  
- Parameters within \(\)'s are optional parameters.  
- Parameters within &lt;&gt;'s are required.
 
 ### Timed permissions and groups
 

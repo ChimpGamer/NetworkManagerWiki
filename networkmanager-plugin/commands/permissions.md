@@ -46,3 +46,8 @@
 | /nmperms ladders | networkmanager.permissions.ladders |
 | /nmperms reload \(global\) | networkmanager.permissions.reload |
 
+All server and world parameters can be replaced by "all" to indicate a global setting.  
+When removing permissions or player groups, all server, world and expiry date parameters can be replaced by "any" to remove any occurrences of that parameter.  
+ Parameters within \(\)'s are optional parameters.  
+ Parameters within \[\]'s are required.
+
