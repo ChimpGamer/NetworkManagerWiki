@@ -1,4 +1,4 @@
-# PermissionSystem
+# Permission System
 
 ## Configurations
 

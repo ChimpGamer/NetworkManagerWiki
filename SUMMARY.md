@@ -45,7 +45,7 @@
   * [CommandBlocker](networkmanager-plugin/modules/commandblocker.md)
   * [Filter](networkmanager-plugin/modules/filter.md)
   * [MOTD](networkmanager-plugin/modules/motd.md)
-  * [PermissionSystem](networkmanager-plugin/modules/permissionsystem.md)
+  * [Permission System](networkmanager-plugin/modules/permissionsystem.md)
   * [Punishment Templates](networkmanager-plugin/modules/punishment-templates.md)
   * [Punishments](networkmanager-plugin/modules/punishments.md)
   * [Proxy Only](networkmanager-plugin/modules/proxy-only.md)
