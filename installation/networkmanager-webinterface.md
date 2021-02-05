@@ -12,7 +12,7 @@
 TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! After successfully executing the script you can go to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts [here](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)
 
 1. You'll need to download the latest version of NetworkManager \(WebInterface\) from the NetworkManager Discord server. Once downloaded unzip the file and upload the content of the ZIP into your web directory. \(example: /var/www/html/networkmanager\).
-2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' \(folder\) to permissions 777. \([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions)\)
+2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' \(folder\) to permissions 777 including sub folders and files. \([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions)\)
 
 **If you are using Red Hat Linux or CentOS, ensure to also run the following command:**
 
