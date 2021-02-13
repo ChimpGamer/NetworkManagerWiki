@@ -2,6 +2,10 @@
 
 **NOTE:** The TicketSystem isn't an addon of the Web Interface!
 
+{% hint style="warning" %}
+Apache mod\_security can cause issues with the ticket system!
+{% endhint %}
+
 ## How to install it?
 
 You can say the the installation instructions are pretty similar to the installation of the Web Interface and that's true. The same installation files were used but modified.
