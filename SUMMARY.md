@@ -42,6 +42,7 @@
   * [LanguageMenu](networkmanager-plugin/menus/languagemenu.md)
 * [Modules](networkmanager-plugin/modules/README.md)
   * [Announcements](networkmanager-plugin/modules/announcements.md)
+  * [Chat](networkmanager-plugin/modules/chat.md)
   * [CommandBlocker](networkmanager-plugin/modules/commandblocker.md)
   * [Filter](networkmanager-plugin/modules/filter.md)
   * [MOTD](networkmanager-plugin/modules/motd.md)
