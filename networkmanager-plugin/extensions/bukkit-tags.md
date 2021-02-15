@@ -9,7 +9,7 @@
 
 ### Installation
 
-1. Download the extension from the Discord server.
+1. [Download ](https://discord.com/channels/222070253172031500/564936280845189124)the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your Bukkit server.
 3. Restart your Bukkit server.
 4. Enable the tags module \(module\_tags\).

@@ -12,7 +12,7 @@
 
 ## How to install?
 
-1. Download the extension from the Discord server.
+1. [Download ](https://discord.com/channels/222070253172031500/564936239413985321)the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your BungeeCord server.
 3. Restart your BungeeCord server.
 4. Configure the DiscordBot Extension by opening the settings.yml of the DiscordBot extension with a text editor. \(The most important things are the token and the guildId\)
