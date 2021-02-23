@@ -4,7 +4,7 @@
 
 To enable the permission system you'll have to enable the permission modules. If you only want to use the permission system on BungeeCord you enable `module_permissions_bungee`. If you only want to use the permission system on Spigot you enable `module_permissions_spigot`. If you want to use the permission system on both you simply enable both modules.
 
-After you enabled or disabled one of these modules you'll have to restart the server.
+After you enabled or disabled one of these modules you'll have to restart the bungeecord or spigot server depending on the setting you changed..
 
 ## Commands
 
