@@ -6,6 +6,15 @@
 Apache mod\_security can cause issues with the ticket system!
 {% endhint %}
 
+## Features
+
+* Authentication with the player's name as username.
+* View your own tickets.
+* Create tickets.
+* Respond to your own tickets.
+* Texteditor that allows formatting and media.
+* Per-user settings. They can change language and theme.
+
 ## How to install it?
 
 You can say the the installation instructions are pretty similar to the installation of the Web Interface and that's true. The same installation files were used but modified.
