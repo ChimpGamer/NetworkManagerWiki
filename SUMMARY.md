@@ -10,8 +10,6 @@
   * [Permissions](plugin/permissions.md)
   * [Commands \(Old\)](plugin/commands-old.md)
   * [PlaceholderAPI MVdWPlaceholderAPI Placeholders](plugin/placeholderapi-mvdwplaceholderapi-placeholders.md)
-* [TicketSystem](ticketsystem.md)
-* [BanList](banlist.md)
 * [FAQ](faq.md)
 
 ## NetworkManager Plugin
@@ -64,6 +62,8 @@
 
 * [Notifications](networkmanager-webinterface/notifications.md)
 * [Addons](networkmanager-webinterface/addons/README.md)
+  * [BanList](networkmanager-webinterface/addons/banlist.md)
+  * [TicketSystem](networkmanager-webinterface/addons/ticketsystem.md)
   * [serverStats-Legacy](networkmanager-webinterface/addons/serverstats-legacy.md)
   * [serverHealth](networkmanager-webinterface/addons/serverhealth.md)
 

@@ -29,5 +29,5 @@ You can say the the installation instructions are pretty similar to the installa
 
 By default you see this text when clicking on the "Register Now" button. If you would like to change this text then you open the login.php file in your favourite text editor and you'll see between line 250 and 263 the code of the model. Between these lines is also the text that's being shown. You're free to modify the text!
 
-![](.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
