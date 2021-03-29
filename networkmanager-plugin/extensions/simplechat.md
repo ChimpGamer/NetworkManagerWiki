@@ -42,3 +42,9 @@ formats:
 ```
 {% endcode %}
 
+## How to install?
+
+1. [Download ](https://discordapp.com/channels/222070253172031500/564936267037540353/790638738828558356)the extension from the Discord server.
+2. Drop the extension jar in the extensions folder on your spigot server.
+3. Restart your spigot server.
+
