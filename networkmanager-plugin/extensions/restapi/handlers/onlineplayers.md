@@ -12,7 +12,7 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=false %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
 Authentication token for basic authentication.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
