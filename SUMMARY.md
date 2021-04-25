@@ -19,6 +19,7 @@
   * [Get the language as an string.](networkmanager-plugin/api/get-the-language-as-an-string..md)
   * [Create a punishment](networkmanager-plugin/api/create-a-punishment.md)
   * [Add PlaceholderHook](networkmanager-plugin/api/add-placeholderhook.md)
+  * [Create extension](networkmanager-plugin/api/create-extension.md)
 * [Commands](networkmanager-plugin/commands/README.md)
   * [Chat](networkmanager-plugin/commands/chat.md)
   * [LobbyServer](networkmanager-plugin/commands/lobbyserver.md)
