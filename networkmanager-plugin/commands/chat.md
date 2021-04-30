@@ -3,7 +3,7 @@
 {% hint style="info" %}
 ###  **AdminChat**
 
-**Usage:** /adminchat \[toggle/message\]  
+**Usage:** /adminchat &lt;toggle/message&gt;  
 **Aliases:** /ac  
 **Permission:** networkmanager.adminchat
 {% endhint %}
@@ -11,7 +11,7 @@
 {% hint style="info" %}
 ###  **Announce**
 
-**Usage:** /announce \[chat/actionbar/title\] \[global/local/servername\] \[message\]  
+**Usage:** /announce &lt;chat/actionbar/title&gt; &lt;global/local/servername&gt; &lt;message&gt;  
 **Aliases:** /announcement, alert, broadcast  
 **Permissions:** networkmanager.announce, networkmanager.announce.global ,networkmanager.announce.local, networkmanager.announce.server
 {% endhint %}
@@ -19,7 +19,7 @@
 {% hint style="info" %}
 ###  **ChatLock**
 
-**Usage:** /chatlock \[serverName\]  
+**Usage:** /chatlock &lt;serverName&gt;  
 **Aliases:** /lockchat, clock, cl  
 **Permission:** networkmanager.chatlock  
 **Bypass Permission:** networkmanager.chatlock.bypass
@@ -28,7 +28,7 @@
 {% hint style="info" %}
 ###  **ClearChat**
 
-**Usage:** /clearchat \[global/serverName\]  
+**Usage:** /clearchat &lt;global/serverName&gt;  
 **Aliases:** /cc  
 **Permission:** networkmanager.clearchat  
 **Bypass** P**ermission:** networkmanager.clearchat.bypass
@@ -52,11 +52,11 @@
 {% hint style="info" %}
 ###  **Message/Reply**
 
-**Usage:** /msg \[toggle/username\] \(message\)  
+**Usage:** /msg &lt;toggle/username&gt; \[message\]  
 **Aliases:** /tell, tell, whisper, m  
 **Permission:** networkmanager.msg
 
-**Usage:** /reply \[message\]  
+**Usage:** /reply &lt;message&gt;  
 **Aliases:** /r  
 **Permission:** networkmanager.msg
 {% endhint %}
@@ -72,7 +72,7 @@
 {% hint style="info" %}
 ###  **StaffChat**
 
-**Usage:** /staffchat \[toggle/message\]  
+**Usage:** /staffchat &lt;toggle/message&gt;  
 **Aliases:** /sc  
 **Permission:** networkmanager.staffchat
 {% endhint %}

@@ -3,28 +3,28 @@
 {% hint style="info" %}
 ###  Ping
 
-**Usage:** /ping \(username\)  
+**Usage:** /ping \[username\]  
 **Permission:** networkmanager.ping, networkmanager.ping.others
 {% endhint %}
 
 {% hint style="info" %}
 ###  Playtime
 
-**Usage:** /playtime \(username/top\)  
+**Usage:** /playtime \[username/top\]  
 **Permission:** networkmanager.playtime, networkmanager.playtime.others, networkmanager.playtime.top
 {% endhint %}
 
 {% hint style="info" %}
 ###  Find
 
-**Usage:** /find \[username\]  
+**Usage:** /find &lt;username&gt;  
 **Permission:** networkmanager.find
 {% endhint %}
 
 {% hint style="info" %}
 ###  Lookup
 
-**Usage:** /lookup \[username\]  
+**Usage:** /lookup &lt;username&gt;  
 **Permission:** networkmanager.lookup
 
 **TIP:** When you have PremiumVanish on BungeeCord, you can use the %isvanished% placeholder in the lookup format.
@@ -33,7 +33,7 @@
 {% hint style="info" %}
 ###  Maintenace
 
-**Usage:** /maintenance \[toggle/enable/disable/status\]  
+**Usage:** /maintenance &lt;toggle/enable/disable/status&gt;  
 **Permissions:** networkmanager.maintenance,  
 networkmanager.maintenance.toggle,  
 networkmanager.maintenance.enable,  
@@ -44,28 +44,28 @@ networkmanager.maintenance.status,
 {% hint style="info" %}
 ###  Nickname
 
-**Usage:** /nick \[off/reset/username/nickname\]  
+**Usage:** /nick &lt;off/reset/username/nickname&gt;  
 **Permissions:** networkmanager.nickname, networkmanager.nickname.other, networkmanager.nickname.colorcodes
 {% endhint %}
 
 {% hint style="info" %}
 ###  Seen
 
-**Usage:** /seen \[username\]  
+**Usage:** /seen &lt;username&gt;  
 **Permissions:** networkmanager.seen
 {% endhint %}
 
 {% hint style="info" %}
 ###  Language
 
-**Usage:** /language \[language/username/all\] \(language\)  
+**Usage:** /language &lt;language/username/all&gt; \[language\]  
 **Permissions:** networkmanager.language, networkmanager.language.other
 {% endhint %}
 
 {% hint style="info" %}
 ###  Execute
 
-**Usage:** /execute \[allproxies/server/proxyid\] \[command\]  
+**Usage:** /execute &lt;allproxies/server/proxyid&gt; &lt;command&gt;  
 **Permissions:** networkmanager.execute
 {% endhint %}
 
