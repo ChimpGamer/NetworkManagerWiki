@@ -19,7 +19,7 @@
 7. Execute "nm test database" in the console to test the connection. If the command is unknown check your bungeecord log.
 
 {% hint style="danger" %}
-Don't join the server yet! After you installed the WebInterface go to the Settings and search for servermode. Make sure you've set the correct servermode.   
+Don't join the server yet! Install the Web Interface now. After you installed the WebInterface go to the Settings in the web interface and search for servermode. Make sure you've set the correct servermode.   
   
 You can choose: ONLINE, OFFLINE or MIXED.
 {% endhint %}
