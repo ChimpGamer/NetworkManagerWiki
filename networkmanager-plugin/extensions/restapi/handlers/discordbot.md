@@ -1,8 +1,8 @@
 # DiscordBot
 
-{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers/mcuuid/:id" %}
+{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers/playeruuid/:id" %}
 {% api-method-summary %}
-Player UUID by Discord User Id
+Get Player UUID by Discord User Id
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -48,7 +48,7 @@ Could not find uuid matching the given discord user id
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="http://yourdomain.com:4777" path="/discordbot/discordid/:uuid" %}
+{% api-method method="get" host="http://yourdomain.com:4777" path="/discordbot/userid/:uuid" %}
 {% api-method-summary %}
 Get Discord User Id by Player UUID
 {% endapi-method-summary %}
