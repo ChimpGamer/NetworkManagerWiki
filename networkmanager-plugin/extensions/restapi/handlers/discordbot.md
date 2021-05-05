@@ -64,12 +64,6 @@ Get Discord User Id by Player UUID
 uuid of the player you want to retrieve the discord user id from
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -90,70 +84,6 @@ Could not find discord user id matching the given player uuid
 
 ```
 {"message": "Could not find discord user id by uuid: bfae0d10-b2de-44d8-b6c9-e70387cc3aea"}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers/mcuuid:id" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find uuid matching the given discord user id
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers/mcuuid:id" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find uuid matching the given discord user id
-{% endapi-method-response-example-description %}
-
-```
-
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
