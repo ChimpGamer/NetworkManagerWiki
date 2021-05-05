@@ -73,7 +73,7 @@ Discord user id successfully found
 {% endapi-method-response-example-description %}
 
 ```
-{"user_id": "183723789308264457"}
+{"userid": "183723789308264457"}
 ```
 {% endapi-method-response-example %}
 
