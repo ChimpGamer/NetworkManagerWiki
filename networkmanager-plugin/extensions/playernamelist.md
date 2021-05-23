@@ -17,3 +17,11 @@ formats:
     priority: 100
 ```
 
+## FAQ about this extension
+
+{% hint style="info" %}
+How can I adjust the order in the PlayerNameList extension?
+
+You can't. Use NameTagEdit or a similar plugin. This is just a simple extension that allows you to change the name of your players in the TAB.
+{% endhint %}
+
