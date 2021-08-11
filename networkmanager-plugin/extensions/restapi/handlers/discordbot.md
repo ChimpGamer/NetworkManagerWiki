@@ -1,6 +1,6 @@
 # DiscordBot
 
-{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers/playeruuid/:id" %}
+{% api-method method="get" host="http://yourdomain.com:4777" path="/discordbot/playeruuid/:id" %}
 {% api-method-summary %}
 Get Player UUID by Discord User Id
 {% endapi-method-summary %}
