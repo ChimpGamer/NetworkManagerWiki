@@ -64,6 +64,12 @@ Get Discord User Id by Player UUID
 uuid of the player you want to retrieve the discord user id from
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
+Authentication token for basic authentication
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
