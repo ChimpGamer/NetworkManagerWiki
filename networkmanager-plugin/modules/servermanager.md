@@ -83,6 +83,8 @@ NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
 
+* 1.17.1
+* 1.17
 * 1.16.4
 * 1.16.3
 * 1.16.2

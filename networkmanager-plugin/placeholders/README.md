@@ -63,3 +63,95 @@
 | %date% | Returns the current date. Can be changed by changing lang\_date\_format |
 | {newline} | Incase %newline% breaks the motd when using % as in 50% off or something you can use this |
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Server Placeholders
+
+| Placeholder | Description |
+| :--- | :--- |
+| %newline% | Will create a new line in a string. |
+| %date% | Returns the current date. Format can be changed by changing lang\_date\_format |
+| %pluginprefix% | Returns the plugin prefix which can be configured in the languages |
+| %servername% | Returns the name of the server. \(For BungeeCord it will return BungeeCord. For Spigot server it depends on your configuration\) |
+| %uniquejoins% | Returns the amount of unique joins on the server. |
+| %onlineplayers% | Returns the amount of online players |
+| %total\_punishments% | Returns the total amount of executed punishments |
+| %total\_reports% | Returns the total amount of reports created. |
+| %total\_tickets% | Returns the total amount of tickets created. |
+| %closed\_tickets% | Returns the amount of closed tickets. |
+| %open\_tickets% | Returns the amount of open tickets. |
+| %message\_&lt;messageKey&gt;% | Returns the messages from the message key defined. Example: %message\_lang\_time\_year% would return Year if the selected language is English. |
+| %countdown\_24-12-2021% | Returns a countdown from current date until the specified date. The format of the date depends on your setting lang\_date\_format for the English Language. |
+| %countdown-dd-MM-yyyy\_24-12-2021% | Returns a countdown from current date until the specified date. The format can be specified in this placeholder. |
+
+-- BungeeCord Only --
+
+| Placeholder | Description |
+| :--- | :--- |
+| %maxplayers% | Returns the amount of max allowed players on the network. |
+| %randomplayer@&lt;x&gt;% | Returns a list of random online players. Where the x is you define the amount of random players. Example: %randomplayer@5% |
+| %players@&lt;server/servergroup&gt;% | Returns the amount of online players on the defined server or servergroup. Example: %players@lobby% |
+| %serverplayers% | Only when player is available. |
+
+### Player Placeholders
+
+| Placeholder | Description |
+| :--- | :--- |
+| %uuid% |  |
+| %playername% |  |
+| %username% |  |
+| %displayname% |  |
+| %nickname% |  |
+| %namecolor |  |
+| %server% |  |
+| %version% |  |
+| %country |  |
+| %ip% |  |
+| %status% |  |
+| %playtime% |  |
+| %liveplaytime% |  |
+| %playtime\_h% |  |
+| %playtime\_m% |  |
+| %playtime\_s% |  |
+| %liveplaytime\_h% |  |
+| %liveplaytime\_m% |  |
+| %liveplaytime\_s% |  |
+| %language% |  |
+| %tag% |  |
+| %ping% |  |
+
+### Permission Placeholders
+
+| Placeholder |  |
+| :--- | :--- |
+| %ownprefix% |  |
+| %ownsuffix% |  |
+| %prefix% |  |
+| %suffix% |  |
+| %ownprefix\_color% |  |
+| %ownsuffix\_color% |  |
+| %prefix\_color% |  |
+| %suffix\_color% |  |
+| %primarygroup% |  |
+| %prefix\_&lt;ladder&gt;% |  |
+| %firstprefix\_&lt;ladders&gt;% |  |
+| %suffix\_&lt;ladder&gt;% |  |
+| %firstsuffix\_&lt;ladders&gt;% |  |
+| %groupname\_&lt;ladder&gt;% |  |
+| %firstgroup\_&lt;ladder&gt;% |  |
+| %permexpirytime\_&lt;permission&gt;% |  |
+| %permexpirydate\_&lt;permission&gt;% |  |
+| %ownpermexpirytime\_&lt;permission&gt;% |  |
+| %ownpermexpirydate\_&lt;permission&gt;% |  |
+| %groupexpirytime\_&lt;permission&gt;% |  |
+| %groupexpirydate\_&lt;permission&gt;% |  |
+| %group\_&lt;groupname&gt;\_id% |  |
+| %group\_&lt;groupname&gt;\_ladder% |  |
+| %group\_&lt;groupname&gt;\_rank% |  |
+| %group\_&lt;groupname&gt;\_prefix% |  |
+| %group\_&lt;groupname&gt;\_suffix% |  |
+| %group\_&lt;groupname&gt;\_permexpiretime\_&lt;permission&gt;% |  |
+| %group\_&lt;groupname&gt;\_permexpiredate\_&lt;permission&gt;% |  |
+| %group\_&lt;groupname&gt;\_prefix\_&lt;server&gt;% |  |
+| %group\_&lt;groupname&gt;\_suffix\_&lt;server&gt;% |  |
+

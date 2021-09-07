@@ -22,7 +22,7 @@ This error could be caused by:
 
 ## How do I update the Web Interface?
 
-You can use this update script \([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel_update.sh)\) written by  [Daniel Markink](https://github.com/DanielMarkink).
+You can use this update script \([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel_update.sh)\) written by [Daniel Markink](https://github.com/DanielMarkink).
 
   
 You can also download the zip manually, back-up the config.php \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
@@ -36,9 +36,7 @@ To achieve this you'll have to use the language system in NetworkManager. If you
 INSERT INTO nm_language_messages(`language_id`, `key`, `message`, `plugin`, `version`) SELECT `id`, `announcement_discord`, `Please join our discord https://discord.gg/12345`, `NetworkManager`, `1.0.0` FROM nm_languages;
 ```
 
-You can fill what ever you want as version but that is mainly used to maintain the language messages used in NetworkManager.
+You can fill what ever you want as version but that is mainly used to maintain the language messages used in NetworkManager. After this you can change the message in the web interface for every language.
 
 When you've added this language key you go to the BungeeCord console and execute "nm reload languages". After you've done that you can create an announcement and simply set as message: `%message_announcement_discord%`
-
-\`\`
 

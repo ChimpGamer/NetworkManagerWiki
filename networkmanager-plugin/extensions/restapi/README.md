@@ -18,5 +18,5 @@ If there is something wrong. Always check the console log of the browser. And re
 
 NOTE: It is recommended to use HTTPS. HTTPS will only be activated if there is a valid keystore file in the keystore-path. HTTP will be disabled if you use HTTPS.
 
-If the RestAPI doesn't work it is probably because you use BungeeCord. For some odd reason the RestAPI doesn't work with BungeeCord but it does with Waterfall. I'm not sure about other forks of BungeeCord.
+~~If the RestAPI doesn't work it is probably because you use BungeeCord. For some odd reason the RestAPI doesn't work with BungeeCord but it does with Waterfall. I'm not sure about other forks of BungeeCord.~~
 

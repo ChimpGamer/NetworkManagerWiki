@@ -6,7 +6,6 @@ This is the default settings.yml. In this file you can create as much formats as
 | :--- | :--- |
 | simplechat.format.&lt;formatName&gt; | Gives the player permission to use this format |
 | simplechat.chatcolor | Gives the permission to use colorcodes. &e |
-| simplechat.hexcolor | Gives the permission to use hexcolor. &\#123456 |
 | simplechat.showitem | Gives the permission to use the itemkeywords. def: \[item\] |
 
 You can reload the settings.yml with /nmb extensions reloadconfig SimpleChat
