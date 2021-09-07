@@ -5,7 +5,7 @@
 
 **Usage:** /adminchat &lt;toggle/message&gt;  
 **Aliases:** /ac  
-**Permission:** networkmanager.adminchat
+**Permission:** networkmanager.command.adminchat
 {% endhint %}
 
 {% hint style="info" %}
@@ -21,7 +21,7 @@
 
 **Usage:** /chatlock &lt;serverName&gt;  
 **Aliases:** /lockchat, clock, cl  
-**Permission:** networkmanager.chatlock  
+**Permission:** networkmanager.command.chatlock  
 **Bypass Permission:** networkmanager.chatlock.bypass
 {% endhint %}
 
@@ -30,7 +30,7 @@
 
 **Usage:** /clearchat &lt;global/serverName&gt;  
 **Aliases:** /cc  
-**Permission:** networkmanager.clearchat  
+**Permission:** networkmanager.command.clearchat  
 **Bypass** P**ermission:** networkmanager.clearchat.bypass
 {% endhint %}
 
@@ -39,7 +39,8 @@
 
 **Usage:** /commandspy  
 **Aliases:** /cmdspy  
-**Permission:** networkmanager.commandspy
+**Permission:** networkmanager.command.commandspy  
+**Exempt Permission:** networkmanager.commandspy.exempt
 {% endhint %}
 
 {% hint style="info" %}
@@ -54,11 +55,10 @@
 
 **Usage:** /msg &lt;toggle/username&gt; \[message\]  
 **Aliases:** /tell, tell, whisper, m  
-**Permission:** networkmanager.msg
+**Permission:** networkmanager.command.msg
 
 **Usage:** /reply &lt;message&gt;  
-**Aliases:** /r  
-**Permission:** networkmanager.msg
+**Aliases:** /r
 {% endhint %}
 
 {% hint style="info" %}
@@ -66,7 +66,7 @@
 
 **Usage:** /socialspy   
 **Aliases:** /spy  
-**Permission:** networkmanager.socialspy
+**Permission:** networkmanager.command.socialspy
 {% endhint %}
 
 {% hint style="info" %}
@@ -74,6 +74,6 @@
 
 **Usage:** /staffchat &lt;toggle/message&gt;  
 **Aliases:** /sc  
-**Permission:** networkmanager.staffchat
+**Permission:** networkmanager.command.staffchat
 {% endhint %}
 
