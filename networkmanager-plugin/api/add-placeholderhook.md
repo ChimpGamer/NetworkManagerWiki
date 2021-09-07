@@ -23,5 +23,5 @@ public PlaceholderHookExample expands PlaceholderHook {
 }
 ```
 
-Then you'll have to register it by using NetworkManager\#getPlaceholderManager\#registerPlaceholder which returns a boolean value. If it return's true the Placeholder got successully registered. If false, you should check the server console to find out what's wrong.
+Then you'll have to register it by using NetworkManagerPlugin\#getPlaceholderManager\#registerPlaceholder which returns a boolean value. If it return's true the Placeholder got successully registered. If false, you should check the server console to find out what's wrong.
 

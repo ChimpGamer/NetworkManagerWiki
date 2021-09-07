@@ -13,7 +13,12 @@
 
 **Usage:** /announce &lt;chat/actionbar/title&gt; &lt;global/local/servername&gt; &lt;message&gt;  
 **Aliases:** /announcement, alert, broadcast  
-**Permissions:** networkmanager.announce, networkmanager.announce.global ,networkmanager.announce.local, networkmanager.announce.server
+**Permissions:**   
+networkmanager.command.announce.chat  
+networkmanager.command.announce,actionbar  
+networkmanager.command.announce.title  
+networkmanager.command.announce.global  
+networkmanager.command.announce.local
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,6 +64,9 @@
 
 **Usage:** /reply &lt;message&gt;  
 **Aliases:** /r
+
+**Usage:** /msgtoggle \(playername\) \(true/false\)  
+**Permission:** networkmanager.command.msgtoggle
 {% endhint %}
 
 {% hint style="info" %}

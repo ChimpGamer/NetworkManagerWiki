@@ -52,7 +52,7 @@ public class NetworkManagerAPIHook {
  
     public NetworkManagerAPIHook(YourMainClass yourMainClass) {
         // Throws IllegalStateException if API is not ready yet.
-        networkManager = NetworkManagerProvider.get();
+        networkManager = NetworkManagerProvider.Companion.get();
    			yourMainClass.getLogger().info("Hooked into NetworkManager");
     }
     

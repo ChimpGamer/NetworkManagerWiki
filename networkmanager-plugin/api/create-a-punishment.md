@@ -17,7 +17,7 @@ public class Example {
         this.networkManager = networkManager;
     }
     
-public void createPunishment(Player player) {
+    public void createPunishment(Player player) {
         final CachedPunishments cachedPunishments = this.getNetworkManager().getCacheManager().getCachedPunishments();
         Punishment.Builder punishmentBuilder = cachedPunishments.createPunishmentBuilder();
         Punishment punishment = punishmentBuilder
