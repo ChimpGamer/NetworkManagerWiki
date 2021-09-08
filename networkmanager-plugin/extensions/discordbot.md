@@ -56,4 +56,8 @@ DiscordBot adds a couple of placeholders to NetworkManager. You can use those pl
 | %discordbot\_guild\_name% | Returns the name of the Discord guild |
 | %discordbot\_members\_online% | Returns the amount of online members |
 | %discordbot\_members\_total% | Returns the amount of total members |
+| %discordbot\_guild\_boost\_count% | Returns the amount of boosters of the discord guild |
+| %discordbot\_is\_registered% | Returns true if the player has been registered |
+| %discordbot\_member\_name% | Returns the name of the name of the member that is linked to the player |
+| %discordbot\_is\_member\_of\_guild\_&lt;userId&gt;% | Returns true if the user of the defined user id is a member of the discord guild. |
 
