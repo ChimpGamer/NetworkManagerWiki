@@ -1,5 +1,9 @@
 # Announcements
 
+### What does it do?
+
+This system will announce chat, actionbar or title messages every x seconds depending on your configuration. Read more about it below on how to configure it.
+
 ### Settings
 
 The announcements have only three global settings which are interval settings.  
