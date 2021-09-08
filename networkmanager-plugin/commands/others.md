@@ -85,10 +85,10 @@ networkmanager.command.maintenance.status,
 {% endhint %}
 
 {% hint style="info" %}
-###  Tickets
+###  Ticket
 
-**Usage:** /tickets  
-**Permissions:** networkmanager.command.tickets
+**Usage:** /ticket  
+**Permissions:** networkmanager.command.ticket
 {% endhint %}
 
 {% hint style="info" %}
