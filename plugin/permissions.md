@@ -1,5 +1,7 @@
 # Permissions
 
+Some are not acurate anymore
+
 Colors:
 
 * networkmanager.color.black
