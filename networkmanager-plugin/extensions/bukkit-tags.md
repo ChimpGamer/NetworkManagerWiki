@@ -56,4 +56,5 @@ The server parameter can be replaced with "all" to indicate a global setting. Pa
 ### Tips
 
 1. In the description the placeholder %newline% is allowed and will create a new line in the Description.
+2. You can force tags on players using the networkmanager.tags.forcetag.&lt;tag&gt; permission.
 
