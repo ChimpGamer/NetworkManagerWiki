@@ -1,5 +1,7 @@
 # Tags
 
+Allow players the to select a tag that can be displayed in the chat or anywhere you want if they have permission for it.
+
 ### Requirements
 
 1. The NetworkManager plugin installed and configured on your spigot server.
