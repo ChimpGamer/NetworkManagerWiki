@@ -25,7 +25,7 @@ This error could be caused by:
 You can use this update script \([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel_update.sh)\) written by [Daniel Markink](https://github.com/DanielMarkink).
 
   
-You can also download the zip manually, back-up the config.php \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
+You can also download the zip manually, back-up the config.ini \(located at protected/config.ini\) and the settings.json \(located at protected/settings.json\), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.  
 Another option is to remove all files, upload the new files, run the install.php and skip the create user part. Make sure to follow the WebInterface installation steps [here](https://networkmanager.gitbook.io/wiki/installation/networkmanager-webinterface).
 
 ## How do I create an announcement in multiple languages?
