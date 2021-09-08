@@ -3,7 +3,7 @@
 ## Features
 
 * Verification system to connect Discord accounts with MC accounts.
-* Username and Rank sync. \(Rank sync works with NMPerms, PowerfulPerms, LuckPerms and UltraPermissions\)
+* Username and Rank sync. \(Rank sync works with NMPerms, LuckPerms and UltraPermissions\)
 * Connect the staffchat and adminchat from networkmanager with discord. You can even interact with them trough discord.
 * You can change the status of your discord bot.
 * Configurable command prefix.
