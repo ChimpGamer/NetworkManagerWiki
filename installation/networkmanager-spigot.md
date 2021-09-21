@@ -16,13 +16,14 @@
 
 ### Installation
 
-1. Drop the plugin \(NetworkManager\) in your Spigot plugins folder.
-2. Start your Spigot server.
-3. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
-4. Enter your MySQL host, port, username, password and database.
-5. \(Optional\) Enable Redis. Enter redis host and password if you set one.
-6. If you use the permission system maken sure you set the correct servername in the settings.yml.
-7. Restart your Spigot server and it should work without issues.
+1. Download the jar from \(Discord\) [here](https://discord.com/channels/222070253172031500/884868288386052196/889142099604275252).
+2. Drop the plugin \(NetworkManager\) in your Spigot plugins folder.
+3. Start your Spigot server.
+4. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
+5. Enter your MySQL host, port, username, password and database.
+6. \(Optional\) Enable Redis. Enter redis host and password if you set one.
+7. If you use the permission system maken sure you set the correct servername in the settings.yml.
+8. Restart your Spigot server and it should work without issues.
 
 ### Common issues
 
