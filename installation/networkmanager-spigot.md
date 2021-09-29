@@ -2,7 +2,7 @@
 
 ### Requirements
 
-1. Make sure you have Java 8 installed!​
+1. Make sure you have Java 8, 11 or 16 installed!​
 2. Make sure NetworkManager \(BungeeCord\) is successfully configured and working.
 3. Make sure you have set in your spigot.yml bungeecord: true
 
