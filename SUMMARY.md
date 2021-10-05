@@ -15,6 +15,8 @@
 ## NetworkManager Plugin
 
 * [API](networkmanager-plugin/api/README.md)
+  * [Adding NetworkManager to your project](networkmanager-plugin/api/adding-networkmanager-to-your-project/README.md)
+    * [Gradle](networkmanager-plugin/api/adding-networkmanager-to-your-project/gradle.md)
   * [Hook into the API](networkmanager-plugin/api/hook-into-the-api.md)
   * [Get the language as an string.](networkmanager-plugin/api/get-the-language-as-an-string..md)
   * [Create a punishment](networkmanager-plugin/api/create-a-punishment.md)
