@@ -1,35 +1,19 @@
 # Player
 
-{% api-method method="get" host="http://yourdomain.com:4777" path="/player/:uuid" %}
-{% api-method-summary %}
-Get Player by UUID
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="http://yourdomain.com:4777" path="/player/:uuid" method="get" summary="Get Player by UUID" %}
+{% swagger-description %}
 Retrieves data of the player by UUID.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="uuid" type="string" required=true %}
+{% swagger-parameter in="path" name="uuid" type="string" %}
 uuid of the player.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% swagger-parameter in="header" name="Authentication" type="string" %}
 Authentication token for Basic authentication.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 {
     "name": "John",
@@ -45,20 +29,12 @@ Authentication token for Basic authentication.
     "groups": []
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a player matching this query.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Could not find a player matching this query." %}
 ```
 {"message": "Could not find player by uuid: acb4cbcb-0824-4e60-b578-0fe604008bb0"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-
+{% endswagger-response %}
+{% endswagger %}
 

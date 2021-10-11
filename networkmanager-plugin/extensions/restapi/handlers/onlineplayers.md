@@ -1,37 +1,20 @@
 # OnlinePlayers
 
-{% api-method method="get" host="http://yourdomain.com:4777" path="/onlinePlayers" %}
-{% api-method-summary %}
-Get OnlinePlayers
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="http://yourdomain.com:4777" path="/onlinePlayers" method="get" summary="Get OnlinePlayers" %}
+{% swagger-description %}
 This endpoint allows you to get free cakes.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% swagger-parameter in="header" name="Authentication" type="string" %}
 Authentication token for basic authentication.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```
 {
     "lobby": [],
     "survival": ["Peter", "Karel"]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

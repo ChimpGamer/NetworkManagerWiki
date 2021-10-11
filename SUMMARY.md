@@ -2,14 +2,13 @@
 
 * [NetworkManager](README.md)
 * [Installation](installation/README.md)
-  * [NetworkManager \(BungeeCord\)](installation/networkmanager-bungeecord.md)
-  * [NetworkManager \(WebInterface\)](installation/networkmanager-webinterface.md)
-  * [NetworkManager \(Spigot\)](installation/networkmanager-spigot.md)
-  * [\(Important\) GeoIP Api Access Key](installation/important-geoip-api-access-key.md)
+  * [NetworkManager (BungeeCord)](installation/networkmanager-bungeecord.md)
+  * [NetworkManager (WebInterface)](installation/networkmanager-webinterface.md)
+  * [NetworkManager (Spigot)](installation/networkmanager-spigot.md)
+  * [(Important) GeoIP Api Access Key](installation/important-geoip-api-access-key.md)
 * [Plugin](plugin/README.md)
   * [Permissions](plugin/permissions.md)
-  * [Commands \(Old\)](plugin/commands-old.md)
-  * [PlaceholderAPI MVdWPlaceholderAPI Placeholders](plugin/placeholderapi-mvdwplaceholderapi-placeholders.md)
+  * [Commands (Old)](plugin/commands-old.md)
 * [FAQ](faq.md)
 
 ## NetworkManager Plugin
@@ -56,6 +55,7 @@
   * [SlashServer](networkmanager-plugin/modules/slashserver.md)
   * [TabHeader](networkmanager-plugin/modules/tabheader.md)
 * [Placeholders](networkmanager-plugin/placeholders/README.md)
+  * [PlaceholderAPI](networkmanager-plugin/placeholders/placeholderapi-mvdwplaceholderapi-placeholders.md)
   * [LuckPerms](networkmanager-plugin/placeholders/luckperms.md)
   * [PremiumVanish](networkmanager-plugin/placeholders/premiumvanish.md)
   * [UltraPermissions](networkmanager-plugin/placeholders/ultrapermissions.md)
@@ -70,4 +70,3 @@
   * [TicketSystem](networkmanager-webinterface/addons/ticketsystem.md)
   * [serverStats-Legacy](networkmanager-webinterface/addons/serverstats-legacy.md)
   * [serverHealth](networkmanager-webinterface/addons/serverhealth.md)
-

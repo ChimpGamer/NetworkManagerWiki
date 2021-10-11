@@ -6,7 +6,7 @@ description: >-
 
 # NetworkManager
 
-We are here to help, and if you can't find a solution to your problem you can always join our discord at:   
+We are here to help, and if you can't find a solution to your problem you can always join our discord at: \
 [https://discord.gg/jpGWNqA](https://discord.gg/jpGWNqA)
 
 {% tabs %}
@@ -15,30 +15,52 @@ We are here to help, and if you can't find a solution to your problem you can al
 It's recommended to do this step by step. Make sure you did all 3 of them.
 {% endhint %}
 
-{% page-ref page="installation/networkmanager-bungeecord.md" %}
+{% content-ref url="installation/networkmanager-bungeecord.md" %}
+[networkmanager-bungeecord.md](installation/networkmanager-bungeecord.md)
+{% endcontent-ref %}
 
-{% page-ref page="installation/networkmanager-spigot.md" %}
+{% content-ref url="installation/networkmanager-spigot.md" %}
+[networkmanager-spigot.md](installation/networkmanager-spigot.md)
+{% endcontent-ref %}
 
-{% page-ref page="installation/networkmanager-webinterface.md" %}
+{% content-ref url="installation/networkmanager-webinterface.md" %}
+[networkmanager-webinterface.md](installation/networkmanager-webinterface.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Extensions" %}
 {% hint style="info" %}
-These are extensions that are implemented in NetworkManager. With these   
+These are extensions that are implemented in NetworkManager. With these \
 extensions you can make managing you server easier.
 {% endhint %}
 
-{% page-ref page="networkmanager-plugin/extensions/bukkit-tags.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/extensions/restapi/" %}
+{% content-ref url="networkmanager-plugin/extensions/bukkit-tags.md" %}
+[bukkit-tags.md](networkmanager-plugin/extensions/bukkit-tags.md)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/extensions/simplechat.md" %}
+{% content-ref url="networkmanager-plugin/extensions/restapi/" %}
+[restapi](networkmanager-plugin/extensions/restapi/)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/extensions/discordbot.md" %}
+{% content-ref url="networkmanager-plugin/extensions/simplechat.md" %}
+[simplechat.md](networkmanager-plugin/extensions/simplechat.md)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/extensions/playernamelist.md" %}
+{% content-ref url="networkmanager-plugin/extensions/discordbot.md" %}
+[discordbot.md](networkmanager-plugin/extensions/discordbot.md)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/extensions/twitter.md" %}
+{% content-ref url="networkmanager-plugin/extensions/playernamelist.md" %}
+[playernamelist.md](networkmanager-plugin/extensions/playernamelist.md)
+{% endcontent-ref %}
+
+{% content-ref url="networkmanager-plugin/extensions/twitter.md" %}
+[twitter.md](networkmanager-plugin/extensions/twitter.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Commands" %}
@@ -46,7 +68,9 @@ extensions you can make managing you server easier.
 Here you can find the commands that are included in NetworkManager.
 {% endhint %}
 
-{% page-ref page="networkmanager-plugin/commands/" %}
+{% content-ref url="networkmanager-plugin/commands/" %}
+[commands](networkmanager-plugin/commands/)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="ServerManager" %}
@@ -54,19 +78,23 @@ Here you can find the commands that are included in NetworkManager.
 When using servermanager you can easily acces your console or connect to the minecraft chat of your server.
 {% endhint %}
 
-{% page-ref page="networkmanager-plugin/modules/servermanager.md" %}
+{% content-ref url="networkmanager-plugin/modules/servermanager.md" %}
+[servermanager.md](networkmanager-plugin/modules/servermanager.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="API" %}
 {% hint style="warning" %}
-This is a section for developers, it doesn't hurt to take a look. But if you don't know about programming it's probably not a place for you. You can still look it you want :\)
+This is a section for developers, it doesn't hurt to take a look. But if you don't know about programming it's probably not a place for you. You can still look it you want :)
 {% endhint %}
 
-{% page-ref page="networkmanager-plugin/api/hook-into-the-api.md" %}
+{% content-ref url="networkmanager-plugin/api/hook-into-the-api.md" %}
+[hook-into-the-api.md](networkmanager-plugin/api/hook-into-the-api.md)
+{% endcontent-ref %}
 
-{% page-ref page="networkmanager-plugin/api/create-a-punishment.md" %}
+{% content-ref url="networkmanager-plugin/api/create-a-punishment.md" %}
+[create-a-punishment.md](networkmanager-plugin/api/create-a-punishment.md)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
-
-
 

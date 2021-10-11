@@ -2,22 +2,22 @@
 
 ## What can you do with ServerManager?
 
-With ServerManager you can add, remove, modify and more like you would do in the BungeeCord config \(without restarting the server\) but with more options, settings and features. You can also create servergroups to balance the players.
+With ServerManager you can add, remove, modify and more like you would do in the BungeeCord config (without restarting the server) but with more options, settings and features. You can also create servergroups to balance the players.
 
 ## Requirements
 
 The ServerManager requires only 1 thing. You need at least one server in your BungeeCord configuration. It is recommended that you put your authentication or hub/lobby servers in there as fallback of the ServerManager system.
 
-Also make sure you disable \`force\_default\_server\` in the config.yml of BungeeCord otherwise you will get this error on login: [https://pastebin.com/3RQxi1N1](https://pastebin.com/3RQxi1N1)
+Also make sure you disable \`force_default_server\` in the config.yml of BungeeCord otherwise you will get this error on login: [https://pastebin.com/3RQxi1N1](https://pastebin.com/3RQxi1N1)
 
 ## How to add a server
 
 1. Go to the Web interface and click on Servers.
 2. Click Add Server.
-3. Fill in the Form \(Servername, IP and Port everything else is optional\). NOTE: BungeeCord doesn't like spaces in the ServerName so don't use spaces or it will cause problems.
-4. \(Optional\) If you want to only allow some versions on a specific servers you can enter something like "1.8, 1.12.1, 1.12.2" \(Only allows all 1.8 clients, 1.12.1 and 1.12.2 clients\) in Allowed Versions.
+3. Fill in the Form (Servername, IP and Port everything else is optional). NOTE: BungeeCord doesn't like spaces in the ServerName so don't use spaces or it will cause problems.
+4. (Optional) If you want to only allow some versions on a specific servers you can enter something like "1.8, 1.12.1, 1.12.2" (Only allows all 1.8 clients, 1.12.1 and 1.12.2 clients) in Allowed Versions.
 5. Click create and the Server will be added.
-6. Run the command /servermanager reload \(servername\) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
+6. Run the command /servermanager reload (servername) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
 
 ## How to edit a server
 
@@ -25,13 +25,13 @@ Also make sure you disable \`force\_default\_server\` in the config.yml of Bunge
 2. Click on the orange edit icon.
 3. Change a setting.
 4. Press save when you're done.
-5. Run the command /servermanager reload \(servername\) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
+5. Run the command /servermanager reload (servername) to apply the changes. WARNING: This can mess up things if there are still players playing on the server you reloaded!
 
 ## How to create a servergroup
 
 1. Go to the Web interface and click on Servers.
 2. Click Create ServerGroup.
-3. Fill in the Form. Groupname is the name of the group. lobbies for example. ServerIds are the Id's of your Servers. You can find them in the Servers list. You need to enter server id's like "1,3,6,9,12" \(Without quotes\).
+3. Fill in the Form. Groupname is the name of the group. lobbies for example. ServerIds are the Id's of your Servers. You can find them in the Servers list. You need to enter server id's like "1,3,6,9,12" (Without quotes).
 4. Click create and the servergroup will be added.
 
 ## How to add servers to a servergroup
@@ -44,7 +44,7 @@ Also make sure you disable \`force\_default\_server\` in the config.yml of Bunge
 
 ## Forced Hosts
 
-Let's say you have some bedwars servers and bedwars game lobbies and you want to use forced hosts to play bedwars without joining the main lobbies first. If you've created a group with bedwars lobbies you can easily do that using the forced\_hosts setting in the config.yml of BungeeCord like this:
+Let's say you have some bedwars servers and bedwars game lobbies and you want to use forced hosts to play bedwars without joining the main lobbies first. If you've created a group with bedwars lobbies you can easily do that using the forced_hosts setting in the config.yml of BungeeCord like this:
 
 ```yaml
   forced_hosts:
@@ -55,30 +55,30 @@ You can also do this for single servers liked you're used to of course.
 
 ## Permissions
 
-**Permission**: networkmanager.serverstatus.notify  
+**Permission**: networkmanager.serverstatus.notify\
 Allows you to receive notifications when a server goes offline or online.
 
-**Permission**: networkmanager.servers.bypassrestricted  
+**Permission**: networkmanager.servers.bypassrestricted\
 Allows you to bypass server restriction on all servers.
 
-**Permission**: networkmanager.server.&lt;serverName&gt;  
+**Permission**: networkmanager.server.\<serverName>\
 Allows you to bypass server restriction on the specified server.
 
 ## Settings
 
-You can find these settings in the Web Interface under: Settings -&gt; Plugin
+You can find these settings in the Web Interface under: Settings -> Plugin
 
-"setting\_servermanager\_logingroup" - This is the group of servers where the players are sent to after they join the network. Usually if you're network is running offline/cracked mode you put the group where you have the authentication servers in.
+"setting_servermanager_logingroup" - This is the group of servers where the players are sent to after they join the network. Usually if you're network is running offline/cracked mode you put the group where you have the authentication servers in.
 
-"setting\_servermanager\_fallbackgroup" - This group is usually for the lobby servers. 
+"setting_servermanager_fallbackgroup" - This group is usually for the lobby servers. 
 
-"setting\_servermanager\_force\_logingroup" - If you want to force the players to join the logingroup then you should enable this setting.
+"setting_servermanager_force_logingroup" - If you want to force the players to join the logingroup then you should enable this setting.
 
-"setting\_servermanager\_kickmove" - If players get kicked from a server because it crashes or is just restarting they will be moved to an available fallback server in the fallbackgroup.  
-  
-\`setting\_servermanager\_status\_check\_interval\`  - Change the interval \(defined in seconds\) of the server status check task.
+"setting_servermanager_kickmove" - If players get kicked from a server because it crashes or is just restarting they will be moved to an available fallback server in the fallbackgroup.\
+\
+\`setting_servermanager_status_check_interval\`  - Change the interval (defined in seconds) of the server status check task.
 
-  
+\
 NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
@@ -131,4 +131,3 @@ NOTE: The above settings expect the name of a servergroup as value.
 * 1.7.4
 * 1.7.5
 * 1.7.2 - 1.7.5
-
