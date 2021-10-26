@@ -1,28 +1,28 @@
 # Others
 
 {% hint style="info" %}
-###  Ping
+### &#x20;Ping
 
 **Usage:** /ping \[username]\
 **Permission:** networkmanager.command.ping, networkmanager.command.ping.others
 {% endhint %}
 
 {% hint style="info" %}
-###  Playtime
+### &#x20;Playtime
 
 **Usage:** /playtime \[username/top]\
 **Permission:** networkmanager.command.playtime, networkmanager.command.playtime.others, networkmanager.command.playtime.top
 {% endhint %}
 
 {% hint style="info" %}
-###  Find
+### &#x20;Find
 
 **Usage:** /find \<username>\
 **Permission:** networkmanager.command.find
 {% endhint %}
 
 {% hint style="info" %}
-###  Lookup
+### &#x20;Lookup
 
 **Usage:** /lookup \<username>\
 **Permission:** networkmanager.command.lookup
@@ -31,7 +31,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-###  Maintenace
+### &#x20;Maintenace
 
 **Usage:** /maintenance \<toggle/enable/disable/status>\
 **Permissions:** networkmanager.command.maintenance,\
@@ -42,42 +42,44 @@ networkmanager.command.maintenance.status,
 {% endhint %}
 
 {% hint style="info" %}
-###  Nickname
+### &#x20;Nickname
 
 **Usage:** /nick \<off/reset/username/nickname>\
-**Permissions:** networkmanager.command.nickname, networkmanager.command.nickname.other, networkmanager.command.nickname.colorcodes
+**Permissions:** networkmanager.command.nickname, networkmanager.command.nickname.other,\
+networkmanager.nickname.colorcodes,\
+networkmanager.nickname.format
 {% endhint %}
 
 {% hint style="info" %}
-###  Seen
+### &#x20;Seen
 
 **Usage:** /seen \<username>\
 **Permissions:** networkmanager.command.seen
 {% endhint %}
 
 {% hint style="info" %}
-###  Language
+### &#x20;Language
 
 **Usage:** /language \<language/username/all> \[language]\
 **Permissions:** networkmanager.command.language, networkmanager.command.language.other
 {% endhint %}
 
 {% hint style="info" %}
-###  Execute
+### &#x20;Execute
 
 **Usage:** /execute \<allproxies/server/proxyid> \<command>\
 **Permissions:** networkmanager.command.execute
 {% endhint %}
 
 {% hint style="info" %}
-###  Notify
+### &#x20;Notify
 
 **Usage:** /notify\
 **Permissions:** networkmanager.command.notify
 {% endhint %}
 
 {% hint style="info" %}
-###  HelpOP
+### &#x20;HelpOP
 
 **Usage:** /helpop \[message]\
 **Permissions:** networkmanager.command.helpop\
@@ -85,35 +87,35 @@ networkmanager.command.maintenance.status,
 {% endhint %}
 
 {% hint style="info" %}
-###  Ticket
+### &#x20;Ticket
 
 **Usage:** /ticket\
 **Permissions:** networkmanager.command.ticket
 {% endhint %}
 
 {% hint style="info" %}
-###  Reports
+### &#x20;Reports
 
 **Usage:** /reports\
 **Permissions:** networkmanager.command.reports
 {% endhint %}
 
 {% hint style="info" %}
-###  BanList
+### &#x20;BanList
 
 **Usage:** /banlist (page)\
 **Permissions:** networkmanager.command.banlist
 {% endhint %}
 
 {% hint style="info" %}
-###  History
+### &#x20;History
 
 **Usage:** /history \[name] (page)\
 **Permissions:** networkmanager.command.history
 {% endhint %}
 
 {% hint style="info" %}
-###  Warnings
+### &#x20;Warnings
 
 **Usage:** /warnings (page/player) (page)\
 **Aliases:** /warns\
@@ -121,7 +123,7 @@ networkmanager.command.maintenance.status,
 {% endhint %}
 
 {% hint style="info" %}
-###  WhereAmI
+### &#x20;WhereAmI
 
 **Usage:** /whereami\
 **Aliases:** /iamlost\
