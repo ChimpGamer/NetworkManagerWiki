@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Drop the plugin (NetworkManager) in your BungeeCord plugins folder.
+1. Drop the plugin ([NetworkManager](https://www.spigotmc.org/resources/networkmanager.28456/)) in your BungeeCord plugins folder.
 2. Start your BungeeCord server.
 3. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
 4. Enter your MySQL host, port, username, password and database.
