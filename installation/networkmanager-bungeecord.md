@@ -6,7 +6,7 @@
 
 1. Make sure you have Java 8, 11 or 16 installed!​
 2. BungeeCord Server that is configured.
-3. MySQL (8 or newer) Server with a database and a user account. (If your MySQL Server is on a other server then your Web Server you need to allow remote connections on your MySQL Server.) (MariaDB 10 Recommended (MariaDB is a fork of MySQL)).
+3. MySQL (8 or newer) Server with a database and a user account. (If your MySQL Server is on a other server then your Web Server you need to allow remote connections on your MySQL Server.) (MariaDB 10.3 or newer Recommended (MariaDB is a fork of MySQL)).
 
 ### Installation
 
