@@ -83,7 +83,7 @@ networkmanager.nickname.format
 
 **Usage:** /helpop \[message]\
 **Permissions:** networkmanager.command.helpop\
-**Notify Permissions: **networkmanager.helpop.notify
+**Notify Permissions:** networkmanager.helpop.notify
 {% endhint %}
 
 {% hint style="info" %}

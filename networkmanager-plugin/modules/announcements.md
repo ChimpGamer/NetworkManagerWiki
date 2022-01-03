@@ -6,24 +6,25 @@ This system will announce chat, actionbar or title messages every x seconds depe
 
 ### Settings
 
-The announcements have only three global settings which are interval settings.  
-Interval is in seconds!  
-setting\_actionbar\_announcements\_interval  
-setting\_chat\_announcements\_interval  
+The announcements have only three global settings which are interval settings.\
+Interval is in seconds!\
+setting\_actionbar\_announcements\_interval\
+setting\_chat\_announcements\_interval\
 setting\_title\_announcements\_interval
 
 ### How to create announcement
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](<../../.gitbook/assets/image (10).png>)
 
-| Field |  |
-| :--- | :--- |
-| Type | Select the type of announcment you want/need. Click [here ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-types)to find more information about each announcement type. |
-| Message | Pretty straight forward. You enter the message in this field. You can use \[center\] on a new line to center that line. More information about centering text can be found [here](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#how-to-center-messages). When you select the title type of announcements you need to use a specific format here. Click [here ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-types)to find more information about title messages. |
-| Sound | One of [these ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-sounds)sounds. These will be played when a player receives the announcement. NOTE: Only works when NetworkManager is also installed on your spigot server\(s\). |
-| Server | Name of the server that the announcement will be executed on \(depending on the announcement type\). You can only put one server here. If you want the announcement to use multiple servers you'll have to use a servergroup. |
-| Expires | You can select a date of time that the announcement will automatically be disabled. |
-| Active | Whether you want it to be active after creation or not. |
+| Field     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type      | Select the type of announcment you want/need. Click [here ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-types)to find more information about each announcement type.                                                                                                                                                                                                                                                                                                                                |
+| Message   | Pretty straight forward. You enter the message in this field. You can use \[center] on a new line to center that line. More information about centering text can be found [here](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#how-to-center-messages). When you select the title type of announcements you need to use a specific format here. Click [here ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-types)to find more information about title messages. |
+| Sound     | One of [these ](https://networkmanager.gitbook.io/wiki/networkmanager-plugin/modules/announcements#announcement-sounds)sounds. These will be played when a player receives the announcement. NOTE: Only works when NetworkManager is also installed on your spigot server(s).                                                                                                                                                                                                                                                                           |
+| Condition | You can use placeholder conditions for announcements. For example if you want that a announcement is only visible to players that are registered you enter `%discordbot_is_registered% == true`                                                                                                                                                                                                                                                                                                                                                         |
+| Server    | Name of the server that the announcement will be executed on (depending on the announcement type). You can only put one server here. If you want the announcement to use multiple servers you'll have to use a servergroup.                                                                                                                                                                                                                                                                                                                             |
+| Expires   | You can select a date of time that the announcement will automatically be disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Active    | Whether you want it to be active after creation or not.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ### Announcement Types
 
@@ -41,18 +42,18 @@ The announcement types explained!
 
 ### Announcement permissions
 
-If you enabled the permission for a specific announcement then you'll have to assign the permission node to a specific group or player in order to allow them to see the announcement. The permission node is: networkmanager.announcement.&lt;id&gt;.
+If you enabled the permission for a specific announcement then you'll have to assign the permission node to a specific group or player in order to allow them to see the announcement. The permission node is: networkmanager.announcement.\<id>.
 
 ### How to create a title?
 
-In NetworkManager we use json for creating titles. It's pretty simple.   
+In NetworkManager we use json for creating titles. It's pretty simple. \
 Example:
 
 ```javascript
 {"title": "Title here", "subtitle": "Subtitle here"}
 ```
 
-Since NetworkManager v2.6.3 you can also define fadeOut, fadeIn and stay.   
+Since NetworkManager v2.6.3 you can also define fadeOut, fadeIn and stay. \
 Example:
 
 ```javascript
@@ -61,7 +62,7 @@ Example:
 
 ### How to center messages?
 
-Since NetworkManager v2.6.3 you can center messages. It's pretty simple. You add \[center\] to the line you want to center. Example:
+Since NetworkManager v2.6.3 you can center messages. It's pretty simple. You add \[center] to the line you want to center. Example:
 
 ```javascript
 &c&m-----------------------
@@ -77,7 +78,7 @@ You can use sounds with Announcements. All sounds listed below will work with 1.
 
 NOTE: To use this feature you'll need NetworkManager v2.6.3 or higher on your spigot servers.
 
-```text
+```
 AMBIENCE_CAVE
 AMBIENCE_RAIN
 AMBIENCE_THUNDER
@@ -273,4 +274,3 @@ VILLAGER_IDLE
 VILLAGER_NO
 VILLAGER_YES
 ```
-

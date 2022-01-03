@@ -1,7 +1,7 @@
 # Chat
 
 {% hint style="info" %}
-###  **AdminChat**
+### &#x20;**AdminChat**
 
 **Usage:** /adminchat \<toggle/message>\
 **Aliases:** /ac\
@@ -9,11 +9,11 @@
 {% endhint %}
 
 {% hint style="info" %}
-### ** Announce**
+### &#x20;**Announce**
 
 **Usage:** /announce \<chat/actionbar/title> \<global/local/servername> \<message>\
 **Aliases:** /announcement, alert, broadcast\
-**Permissions: **\
+**Permissions:** \
 ****networkmanager.command.announce.chat\
 networkmanager.command.announce,actionbar\
 networkmanager.command.announce.title\
@@ -22,41 +22,41 @@ networkmanager.command.announce.local
 {% endhint %}
 
 {% hint style="info" %}
-###  **ChatLock**
+### &#x20;**ChatLock**
 
 **Usage:** /chatlock \<serverName>\
 **Aliases:** /lockchat, clock, cl\
 **Permission:** networkmanager.command.chatlock\
-**Bypass Permission: **networkmanager.chatlock.bypass
+**Bypass Permission:** networkmanager.chatlock.bypass
 {% endhint %}
 
 {% hint style="info" %}
-### ** ClearChat**
+### &#x20;**ClearChat**
 
 **Usage:** /clearchat \<global/serverName>\
 **Aliases:** /cc\
 **Permission:** networkmanager.command.clearchat\
-**Bypass **P**ermission: **networkmanager.clearchat.bypass
+**Bypass** P**ermission:** networkmanager.clearchat.bypass
 {% endhint %}
 
 {% hint style="info" %}
-### ** CommandSpy**
+### &#x20;**CommandSpy**
 
 **Usage:** /commandspy\
 **Aliases:** /cmdspy\
 **Permission:** networkmanager.command.commandspy\
-**Exempt Permission: **networkmanager.commandspy.exempt
+**Exempt Permission:** networkmanager.commandspy.exempt
 {% endhint %}
 
 {% hint style="info" %}
-### ** Ignore**
+### &#x20;**Ignore**
 
 **Usage:** /ignore\
 **Exempt Permission:** networkmanager.ignore.exempt
 {% endhint %}
 
 {% hint style="info" %}
-### ** Message/Reply**
+### &#x20;**Message/Reply**
 
 **Usage:** /msg \<toggle/username> \[message]\
 **Aliases:** /tell, tell, whisper, m\
@@ -65,12 +65,12 @@ networkmanager.command.announce.local
 **Usage:** /reply \<message>\
 **Aliases:** /r
 
-**Usage: **/msgtoggle (playername) (true/false)\
-**Permission: **networkmanager.command.msgtoggle
+**Usage:** /msgtoggle (playername) (true/false)\
+**Permission:** networkmanager.command.msgtoggle
 {% endhint %}
 
 {% hint style="info" %}
-### ** SocialSpy**
+### &#x20;**SocialSpy**
 
 **Usage:** /socialspy \
 **Aliases:** /spy\
@@ -78,7 +78,7 @@ networkmanager.command.announce.local
 {% endhint %}
 
 {% hint style="info" %}
-###  **StaffChat**
+### &#x20;**StaffChat**
 
 **Usage:** /staffchat \<toggle/message>\
 **Aliases:** /sc\

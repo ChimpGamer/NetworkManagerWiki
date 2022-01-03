@@ -1,7 +1,7 @@
 # Party
 
 {% hint style="info" %}
-###  **Party Chat**
+### &#x20;**Party Chat**
 
 **Usage:** /party chat \[toggle/message]\
 **Aliases:** /partychat, pc\
@@ -9,42 +9,42 @@
 {% endhint %}
 
 {% hint style="info" %}
-###  **Party Invite**
+### &#x20;**Party Invite**
 
 **Usage:** /party invite \[username]\
 **Permission:** networkmanager.command.party.invite
 {% endhint %}
 
 {% hint style="info" %}
-###  **Party Join**
+### &#x20;**Party Join**
 
 **Usage:** /party join \[username]\
 **Permission:** networkmanager.command.party.join
 {% endhint %}
 
 {% hint style="info" %}
-### ** Party Jump**
+### &#x20;**Party Jump**
 
 **Usage:** /party jump\
 **Permission:** networkmanager.command.party.jump
 {% endhint %}
 
 {% hint style="info" %}
-### ** Party Kick**
+### &#x20;**Party Kick**
 
 **Usage:** /party kick \[username]\
 **Permission:** networkmanager.command.party.kick
 {% endhint %}
 
 {% hint style="info" %}
-### ** Party Leave**
+### &#x20;**Party Leave**
 
 **Usage:** /party leave\
-**Permissions: **networkmanager.command.party.leave
+**Permissions:** networkmanager.command.party.leave
 {% endhint %}
 
 {% hint style="info" %}
-### ** Party SetOwner**
+### &#x20;**Party SetOwner**
 
 **Usage:** /party setowner \[username] \
 **Permission:** networkmanager.command.party.setowner
