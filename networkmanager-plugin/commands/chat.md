@@ -5,7 +5,8 @@
 
 **Usage:** /adminchat \<toggle/message>\
 **Aliases:** /ac\
-**Permission:** networkmanager.command.adminchat
+**Permission:** networkmanager.command.adminchat\
+**Shortcut permission:** networkmanager.adminchat.shortcut
 {% endhint %}
 
 {% hint style="info" %}
@@ -82,5 +83,6 @@ networkmanager.command.announce.local
 
 **Usage:** /staffchat \<toggle/message>\
 **Aliases:** /sc\
-**Permission:** networkmanager.command.staffchat
+**Permission:** networkmanager.command.staffchat\
+**Shortcut permission:** networkmanager.staffchat.shortcut
 {% endhint %}
