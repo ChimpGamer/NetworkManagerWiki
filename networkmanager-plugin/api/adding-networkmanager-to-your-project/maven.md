@@ -15,7 +15,7 @@ Add these lines to your maven pom file in order to use the networkmanager api in
         <dependency>
          <groupId>nl.chimpgamer.networkmanager</groupId>
           <artifactId>api</artifactId>
-          <version>2.10.6</version>
+          <version>2.10.8</version>
          <scope>provided</scope>
         </dependency>
     </dependencies>
