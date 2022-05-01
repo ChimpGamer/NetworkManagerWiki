@@ -50,6 +50,7 @@ rabbitmq:
   enabled: false
   host: localhost
   port: 5672
+  vhost: /
   username: ''
   password: ''
 ```
