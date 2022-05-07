@@ -2,6 +2,12 @@
 
 This page is W.I.P.
 
+
+
+## Creating a new language
+
+New languages have to be created through the web interface. You login on the web interface and click on the left side bar on "Languages". Click on "Create Language", this will open a modal where you can enter the name of the new language. Click on "Create" to create the new language. After you clicked on "Create" it will copy all message of the English language and put it in the language you created. After that you can start translating!
+
 ## Changing the language messages
 
 There are two ways to change the messages of your languages.
@@ -12,6 +18,6 @@ You can change the languages through the web interface. You login on the web int
 
 ### 2. Export/Import
 
-Since NetworkManager version 2.10.9 it is possible to export and import the messages of a language. Exporting them will export the messages of the selected language from the database to a json file. You can use this to modify the language messages or share them with someone else. The command for exporting a language is `/language export <language> [--plugin [pluginName]]` After modifying the json file you can import it back into the database. The command for importing a language file is `/language import <language> [--overwrite]`
+Since NetworkManager version 2.10.9 it is possible to export and import the messages of a language. Exporting them will export the messages of the selected language from the database to a json file. You can use this to modify the language messages or share them with someone else. The command for exporting a language is `/language export <language> [--plugin [pluginName]]`. After modifying the json file you can import it back into the database. The command for importing a language file is `/language import <language> [--overwrite]`
 
 ``
