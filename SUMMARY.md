@@ -30,6 +30,7 @@
   * [Party](networkmanager-plugin/commands/party.md)
   * [Punishments](networkmanager-plugin/commands/punishments.md)
   * [Permissions](networkmanager-plugin/commands/permissions.md)
+* [Languages](networkmanager-plugin/languages.md)
 * [Extensions](networkmanager-plugin/extensions/README.md)
   * [DiscordBot](networkmanager-plugin/extensions/discordbot.md)
   * [PlayerNameList](networkmanager-plugin/extensions/playernamelist.md)
