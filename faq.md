@@ -23,7 +23,7 @@ This error could be caused by:
 
 ## How do I update the Web Interface?
 
-You can use this update script ([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel_update.sh)) written by [Daniel Markink](https://github.com/DanielMarkink).
+You can use this update script ([link](https://github.com/ChimpGamer/NetworkManager/blob/master/Webbie/InstallScripts/nmpanel\_update.sh)) written by [Daniel Markink](https://github.com/DanielMarkink).
 
 \
 You can also download the zip manually, back-up the config.ini (located at protected/config.ini) and the settings.json (located at protected/settings.json), then remove all files and put the new once in. Then restore the files you've backed-up and then the update is complete.\
@@ -31,10 +31,10 @@ Another option is to remove all files, upload the new files, run the install.php
 
 ## How do I create an announcement in multiple languages?
 
-To achieve this you'll have to use the language system in NetworkManager. If you have multiple languages you have to create a language key for example: announcement_discord and add this key to every language in the language messages table of NetworkManager. You can use this sql query to do this:
+To achieve this you'll have to use the language system in NetworkManager. If you have multiple languages you have to create a language key for example: announcement\_discord and add this key to every language in the language messages table of NetworkManager. You can use this sql query to do this:
 
 ```sql
-INSERT INTO nm_language_messages(`language_id`, `key`, `message`, `plugin`, `version`) SELECT `id`, `announcement_discord`, `Please join our discord https://discord.gg/12345`, `NetworkManager`, `1.0.0` FROM nm_languages;
+INSERT INTO nm_language_messages(`language_id`, `key`, `message`, `plugin`, `version`) SELECT `id`, 'announcement_discord', 'Please join our discord https://discord.gg/12345', 'NetworkManager', '1.0.0' FROM nm_languages;
 ```
 
 You can fill what ever you want as version but that is mainly used to maintain the language messages used in NetworkManager. After this you can change the message in the web interface for every language.
