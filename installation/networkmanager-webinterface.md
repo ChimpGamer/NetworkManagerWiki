@@ -11,9 +11,7 @@
 
 TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! After successfully executing the script you can go to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts [here](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)
 
-1. You'll need to download the latest version of NetworkManager (WebInterface) from the NetworkManager Discord server. Once downloaded unzip the file and upload the content of the ZIP into your web directory. (example: /var/www/html/networkmanager).
-2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' (folder) to permissions 777 including sub folders and files. ([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions))
-
+{% hint style="info" %}
 **If you are using Red Hat Linux or CentOS, ensure to also run the following command:**
 
 'chcon -t httpd\_sys\_rw\_content\_t protected/config.ini', 'chcon -t httpd\_sys\_rw\_content\_t protected/settings.json' and 'chcon -t httpd\_sys\_rw\_content\_t inc/php/dep/languages/'
@@ -25,11 +23,14 @@ TIP: You can use one of the install scripts here to install the WebServer and th
 'setsebool httpd\_can\_network\_connect\_db 1'
 
 _This is to allow for SQL connections through apache._
+{% endhint %}
 
-1. Now configure the WebInterface. Navigate to something like: 'http://YOUR\_IP\_OR\_DOMAIN/your\_path/install.php'.
-2. Follow the instructions on the screen. You need your MySQL details (Same as the plugin) and ensure you have set 'protected/config.ini' to permissions 777 before clicking Install Now! (Its recommended to set this back to 644 once you are done).
-3. Now you create the Admin account. (Its preferred to give accounts the same name as they have in-game. Several functions depend on it.). Then you will be redirected to the login.
-4. Delete the install.php and install\_data.php. Thats all!
+1. You'll need to download the latest version of NetworkManager (WebInterface) from the NetworkManager Discord server. Once downloaded unzip the file and upload the content of the ZIP into your web directory. (example: /var/www/html/networkmanager).
+2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' (folder) to permissions 777 including sub folders and files. ([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions))
+3. Now configure the WebInterface. Navigate to something like: 'http://YOUR\_IP\_OR\_DOMAIN/your\_path/install.php'.
+4. Follow the instructions on the screen. You need your MySQL details (Same as the plugin) and ensure you have set 'protected/config.ini' to permissions 777 before clicking Install Now! (Its recommended to set this back to 644 once you are done).
+5. Now you create the Admin account. (Its preferred to give accounts the same name as they have in-game. Several functions depend on it.). Then you will be redirected to the login.
+6. Delete the install.php and install\_data.php. Thats all!
 
 NOTE: If your BungeeCord server is not in online mode make sure to change the servermode in the Settings. Login on the Web Interface, click on settings, then click plugin, then search for servermode. You can choose: ONLINE, OFFLINE or MIXED.
 
