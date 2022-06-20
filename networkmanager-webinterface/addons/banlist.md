@@ -1,6 +1,12 @@
 # BanList
 
-**NOTE:** The banlist isn't an addon of the Web Interface!
+{% hint style="info" %}
+The banlist isn't an addon of the Web Interface!
+{% endhint %}
+
+{% hint style="warning" %}
+Make sure you target the public folder as document root folder in the configuration on your webserver.
+{% endhint %}
 
 ## How to install it?
 
