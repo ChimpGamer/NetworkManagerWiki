@@ -24,4 +24,13 @@ NetworkManager uses the adventure minimessage library to turn the messages into 
 
 You can find more information about the minimessage format [here](https://docs.adventure.kyori.net/minimessage/format.html). There is also a helpful online tool which will help you style your messages and can be found [here](https://webui.adventure.kyori.net/).
 
-``
+
+
+## Useful tools
+
+The official [MiniMessage Web Viewer](https://webui.adventure.kyori.net/) can be used for previewing and testing your formats and styles.
+
+If you need something to convert legacy colorcodes to minimessage then you can use either this [tool ](https://tehbrian.xyz/legacy-to-minimessage/)by Brian or this [tool](https://nm-colors.remividon.fr/) by Rémi.
+
+
+
