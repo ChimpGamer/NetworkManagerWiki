@@ -1,12 +1,16 @@
 # SimpleChat
 
-This is the default settings.yml. In this file you can create as much formats as you want. To allow a player to use a format you'll have to give them the permission: simplechat.format.&lt;formatName&gt;.
+This is the default settings.yml. In this file you can create as much formats as you want. To allow a player to use a format you'll have to give them the permission: simplechat.format.\<formatName>.
 
-| Permission | Description |
-| :--- | :--- |
-| simplechat.format.&lt;formatName&gt; | Gives the player permission to use this format |
-| simplechat.chatcolor | Gives the permission to use colorcodes. &e |
-| simplechat.showitem | Gives the permission to use the itemkeywords. def: \[item\] |
+| Permission                          | Description                                                                            |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| simplechat.format.\<formatName>     | Gives the player permission to use this format                                         |
+| simplechat.chatcolor                | Gives the permission to use colorcodes. \&e                                            |
+| simplechat.showitem                 | Gives the permission to use the itemkeywords. def: \[item]                             |
+| simplechat.chatlinks                | Gives the player permission to send url links                                          |
+| simplechat.playermention            | Gives the player permission to tag other players                                       |
+| simplechat.bypass.move              | Gives the player permission to bypass the move before chat protection                  |
+| simplechat.customkeyword.\<keyword> | Gives the player permission to use a customkeyword that is defined in the settings.yml |
 
 You can reload the settings.yml with /nmb extensions reloadconfig SimpleChat
 
@@ -19,24 +23,23 @@ ItemKeywords only work with paper 1.16.3 and newer!
 {% code title="settings.yml" %}
 ```yaml
 crossServerChat: false
+blockChatUntilMoved: true
 
 itemKeywords:
   - '[item]'
   - '{item}'
 
+customKeywords:
+  '[pos]': '<gold>World: <white><player_world> <gold>X:<white><player_x> <gold>Y:<white><player_y> <gold>Z:<white><player_z>'
+  '[ping]': '<player_colored_ping> ms'
+
+playerMention:
+  enabled: false
+  color: '<green>'
+
 formats:
   default:
-    prefix: '&8[%prefix%&8] '
-    name: '%username%'
-    suffix: ' &8» '
-    chatColor: '&7'
-    prefixTooltip: []
-    nameTooltip:
-    - '&eExample tooltip of &6%playername%'
-    suffixTooltip: []
-    prefixClickCommand: ''
-    nameClickCommand: ''
-    suffixClickCommand: ''
+    messageFormat: '<dark_gray>[<prefix><dark_gray>] <hover:show_text:"<red><yellow>Example tooltip"><yellow><username></hover> <dark_gray>» <gray><message>'
     priority: 100
 ```
 {% endcode %}
