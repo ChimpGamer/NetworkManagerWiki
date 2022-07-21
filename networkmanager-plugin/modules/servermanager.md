@@ -8,7 +8,7 @@ With ServerManager you can add, remove, modify and more like you would do in the
 
 The ServerManager requires only 1 thing. You need at least one server in your BungeeCord configuration. It is recommended that you put your authentication or hub/lobby servers in there as fallback of the ServerManager system.
 
-Also make sure you disable \`force_default_server\` in the config.yml of BungeeCord otherwise you will get this error on login: [https://pastebin.com/3RQxi1N1](https://pastebin.com/3RQxi1N1)
+Also make sure you disable \`force\_default\_server\` in the config.yml of BungeeCord otherwise you will get this error on login: [https://pastebin.com/3RQxi1N1](https://pastebin.com/3RQxi1N1)
 
 ## How to add a server
 
@@ -44,7 +44,7 @@ Also make sure you disable \`force_default_server\` in the config.yml of BungeeC
 
 ## Forced Hosts
 
-Let's say you have some bedwars servers and bedwars game lobbies and you want to use forced hosts to play bedwars without joining the main lobbies first. If you've created a group with bedwars lobbies you can easily do that using the forced_hosts setting in the config.yml of BungeeCord like this:
+Let's say you have some bedwars servers and bedwars game lobbies and you want to use forced hosts to play bedwars without joining the main lobbies first. If you've created a group with bedwars lobbies you can easily do that using the forced\_hosts setting in the config.yml of BungeeCord like this:
 
 ```yaml
   forced_hosts:
@@ -68,21 +68,24 @@ Allows you to bypass server restriction on the specified server.
 
 You can find these settings in the Web Interface under: Settings -> Plugin
 
-"setting_servermanager_logingroup" - This is the group of servers where the players are sent to after they join the network. Usually if you're network is running offline/cracked mode you put the group where you have the authentication servers in.
+"setting\_servermanager\_logingroup" - This is the group of servers where the players are sent to after they join the network. Usually if you're network is running offline/cracked mode you put the group where you have the authentication servers in.
 
-"setting_servermanager_fallbackgroup" - This group is usually for the lobby servers. 
+"setting\_servermanager\_fallbackgroup" - This group is usually for the lobby servers.&#x20;
 
-"setting_servermanager_force_logingroup" - If you want to force the players to join the logingroup then you should enable this setting.
+"setting\_servermanager\_force\_logingroup" - If you want to force the players to join the logingroup then you should enable this setting.
 
-"setting_servermanager_kickmove" - If players get kicked from a server because it crashes or is just restarting they will be moved to an available fallback server in the fallbackgroup.\
+"setting\_servermanager\_kickmove" - If players get kicked from a server because it crashes or is just restarting they will be moved to an available fallback server in the fallbackgroup.\
 \
-\`setting_servermanager_status_check_interval\`  - Change the interval (defined in seconds) of the server status check task.
+\`setting\_servermanager\_status\_check\_interval\`  - Change the interval (defined in seconds) of the server status check task.
 
 \
 NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
 
+* 1.19
+* 1.18.2
+* 1.18
 * 1.17.1
 * 1.17
 * 1.16.4
