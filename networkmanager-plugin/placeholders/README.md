@@ -2,6 +2,8 @@
 
 **Note: This list is updated for NetworkManager 2.10.5**
 
+**Note: Since NetworkManager 2.11.0, some placeholders use \<placeholder>**&#x20;
+
 ### General Placeholders
 
 | Placeholder                     | Description                                                                                                                                    |
