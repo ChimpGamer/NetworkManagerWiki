@@ -44,6 +44,7 @@
   * [Twitter](networkmanager-plugin/extensions/twitter.md)
 * [Menus](networkmanager-plugin/menus/README.md)
   * [LanguageMenu](networkmanager-plugin/menus/languagemenu.md)
+  * [TagsMenu](networkmanager-plugin/menus/languagemenu-1.md)
 * [Modules](networkmanager-plugin/modules/README.md)
   * [Announcements](networkmanager-plugin/modules/announcements.md)
   * [Chat](networkmanager-plugin/modules/chat.md)

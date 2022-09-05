@@ -26,7 +26,7 @@ _This is to allow for SQL connections through apache._
 {% endhint %}
 
 1. You'll need to download the latest version of NetworkManager (WebInterface) from the NetworkManager Discord server. Once downloaded unzip the file and upload the content of the ZIP into your web directory. (example: /var/www/html/networkmanager).
-2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/languages' (folder) to permissions 777 including sub folders and files. ([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions))
+2. Ensure you have set 'protected/config.ini', 'protected/settings.json' and 'inc/php/dep/language' (folder) to permissions 777 including sub folders and files. ([https://www.pluralsight.com/blog/it-ops/linux-file-permissions](https://www.pluralsight.com/blog/it-ops/linux-file-permissions))
 3. Now configure the WebInterface. Navigate in your browser to something like: 'http://YOUR\_IP\_OR\_DOMAIN/your\_path/install.php'.
 4. Follow the instructions on the screen. You need your MySQL details (Same as the plugin) and ensure you have set 'protected/config.ini' to permissions 777 before clicking Install Now! (Its recommended to set this back to 644 once you are done).
 5. Now you create the Admin account. (Its preferred to give accounts the same name as they have in-game. Several functions depend on it.). Then you will be redirected to the login.

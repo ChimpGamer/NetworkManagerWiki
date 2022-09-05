@@ -16,6 +16,8 @@ You can reload the settings.yml with /nmb extensions reloadconfig SimpleChat
 
 The options pretty much explain themselves.
 
+**Note: To use placeholderapi placeholders, use \<papi:"placeholder\_name">**
+
 {% hint style="info" %}
 ItemKeywords only work with paper 1.16.3 and newer!
 {% endhint %}

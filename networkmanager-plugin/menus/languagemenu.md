@@ -10,6 +10,7 @@ description: This functionality will be introduced in a future version of Networ
 {
   "Options": {
     "Title": "&cLanguageGUI",
+    "ShowNoAccessItems": false,
     "SelectedGlow": true
   },
   "Items": {
@@ -19,8 +20,9 @@ description: This functionality will be introduced in a future version of Networ
       "Lore": [
         "&7&oClick &ehere &7&oto change your language to English"
       ],
-      "SkullData": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE3MDFmMjE4MzVhODk4YjIwNzU5ZmIzMGE1ODNhMzhiOTk0YWJmNjBkMzkxMmFiNGNlOWYyMzExZTc0ZjcyIn19fQ==",
-      "Slot": 30
+      "SkullData": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzY2YyMTBlZGVhMzk2ZjJmNWRmYmNlZDY5ODQ4NDM0ZjkzNDA0ZWVmZWFiZjU0YjIzYzA3M2IwOTBhZGYifX19",
+      "Slot": 11,
+      "Extras": {}
     }
   }
 }
@@ -36,10 +38,11 @@ A little tip if you're looking for Skulls. Lots of skulls can be found here: [ht
 
 I'll also provide a modified example of the configuration so you'll have a better example on how to add other languages to the configuration
 
-```text
+```
 {
   "Options": {
     "Title": "&cLanguageGUI",
+    "ShowNoAccessItems": false,
     "SelectedGlow": true
   },
   "Items": {
@@ -65,5 +68,4 @@ I'll also provide a modified example of the configuration so you'll have a bette
 }
 ```
 
-This configuration file also contains the Nederlands \(Dutch\) language and it has a different skull.
-
+This configuration file also contains the Nederlands (Dutch) language and it has a different skull.
