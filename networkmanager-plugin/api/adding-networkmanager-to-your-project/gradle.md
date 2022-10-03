@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'nl.chimpgamer.networkmanager:api:2.11.1'
+    compileOnly 'nl.chimpgamer.networkmanager:api:2.12.3'
 }
 ```
 
@@ -22,6 +22,6 @@ repositories {
 }
 
 dependencies {
-    compileOnly("nl.chimpgamer.networkmanager:api:2.11.1")
+    compileOnly("nl.chimpgamer.networkmanager:api:2.12.3")
 }
 ```
