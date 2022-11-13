@@ -36,6 +36,10 @@ Check: [https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting](https
 !playtime\
 !uptime
 
+{% hint style="info" %}
+Since Version 1.7.0 the discord commands are slash commands!
+{% endhint %}
+
 In-game:\
 \- /bug - networkmanager.bot.bug\
 \- /suggestion - networkmanager.bot.suggestion\
