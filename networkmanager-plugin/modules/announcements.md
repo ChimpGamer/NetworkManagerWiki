@@ -60,18 +60,6 @@ Example:
 {"title": "Title here", "subtitle": "Subtitle here", "fadeOut": 20, "fadeIn": 20, "stay": 60}
 ```
 
-### How to center messages?
-
-Since NetworkManager v2.6.3 you can center messages. It's pretty simple. You add \[center] to the line you want to center. Example:
-
-```javascript
-&c&m-----------------------
-[center]&6Hey this message is centered!
-This message isn't centered :(
-[center][{"text":"This message is centered!","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"With JSON! :D","color":"green"}]}}}]
-&c&m-----------------------
-```
-
 ### Announcement sounds
 
 You can use sounds with Announcements. All sounds listed below will work with 1.8 - 1.14.
