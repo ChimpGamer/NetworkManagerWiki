@@ -41,19 +41,14 @@ playerMention:
 
 formats:
   default:
-    messageFormat: '<dark_gray>[<prefix><dark_gray>] <hover:show_text:"<red><yellow>Example tooltip"><displayname_with_click></hover> <dark_gray><arrow_right> <gray><message>'
+    messageFormat: '<dark_gray>[<prefix><dark_gray>] <hover:show_text:"<red><yellow>Example tooltip"><yellow><username></hover> <dark_gray>» <gray><message>'
     priority: 100
-    
-placeholders:
-  displayname_with_click: '<click:suggest_command:"/msg <playername> "><yellow><displayname></click>'
-  arrow_right: »
-  arrow_left: «
 ```
 {% endcode %}
 
 ## How to install?
 
-1. [Download ](https://discord.com/channels/222070253172031500/564936267037540353)the extension from the Discord server.
+1. [Download ](https://discordapp.com/channels/222070253172031500/564936267037540353/790638738828558356)the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your spigot server.
 3. Restart your spigot server.
 

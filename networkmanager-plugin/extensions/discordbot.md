@@ -54,16 +54,16 @@ NOTE: Some commands can be changed in the configuration
 
 DiscordBot adds a couple of placeholders to NetworkManager. You can use those placeholders in announcements or other messages.
 
-| Placeholder                                    | Description                                                                       |
-| ---------------------------------------------- | --------------------------------------------------------------------------------- |
-| %discordbot\_guild\_id%                        | Returns the ID of the Discord guild                                               |
-| %discordbot\_guild\_name%                      | Returns the name of the Discord guild                                             |
-| %discordbot\_guild\_members\_online%           | Returns the amount of online members                                              |
-| %discordbot\_guild\_members\_total%            | Returns the amount of total members                                               |
-| %discordbot\_guild\_boost\_count%              | Returns the amount of boosters of the discord guild                               |
-| %discordbot\_is\_registered%                   | Returns true if the player has been registered                                    |
-| %discordbot\_user\_id%                         | Returns the id of the discord user                                                |
-| %discordbot\_user\_name%                       | Returns the name of the discord user                                              |
-| %discordbot\_user\_current\_voicechannel%      | Returns the name of the current voice channel the user is in                      |
-| %discordbot\_member\_name%                     | Returns the name of the name of the member that is linked to the player           |
-| %discordbot\_is\_member\_of\_guild\_\<userId>% | Returns true if the user of the defined user id is a member of the discord guild. |
+| Placeholder                                  | Description                                                                       |
+| -------------------------------------------- | --------------------------------------------------------------------------------- |
+| discordbot\_guild\_id                        | Returns the ID of the Discord guild                                               |
+| discordbot\_guild\_name                      | Returns the name of the Discord guild                                             |
+| discordbot\_guild\_members\_online           | Returns the amount of online members                                              |
+| discordbot\_guild\_members\_total            | Returns the amount of total members                                               |
+| discordbot\_guild\_boost\_count              | Returns the amount of boosters of the discord guild                               |
+| discordbot\_is\_registered                   | Returns true if the player has been registered                                    |
+| discordbot\_user\_id                         | Returns the id of the discord user                                                |
+| discordbot\_user\_name                       | Returns the name of the discord user                                              |
+| discordbot\_user\_current\_voicechannel      | Returns the name of the current voice channel the user is in                      |
+| discordbot\_member\_name                     | Returns the name of the name of the member that is linked to the player           |
+| discordbot\_is\_member\_of\_guild\_\<userId> | Returns true if the user of the defined user id is a member of the discord guild. |
