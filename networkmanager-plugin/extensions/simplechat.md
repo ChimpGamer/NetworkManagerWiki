@@ -7,7 +7,7 @@ This is the default settings.yml. In this file you can create as much formats as
 | simplechat.format.\<formatName>     | Gives the player permission to use this format                                         |
 | simplechat.chatcolor                | Gives the permission to use colorcodes. \&e                                            |
 | simplechat.showitem                 | Gives the permission to use the itemkeywords. def: \[item]                             |
-| simplechat.chatlinks                | Gives the player permission to send url links                                          |
+| simplechat.chatlinks                | Gives the player permission to send **clickable** url links                            |
 | simplechat.playermention            | Gives the player permission to tag other players                                       |
 | simplechat.bypass.move              | Gives the player permission to bypass the move before chat protection                  |
 | simplechat.customkeyword.\<keyword> | Gives the player permission to use a customkeyword that is defined in the settings.yml |
@@ -41,14 +41,19 @@ playerMention:
 
 formats:
   default:
-    messageFormat: '<dark_gray>[<prefix><dark_gray>] <hover:show_text:"<red><yellow>Example tooltip"><yellow><username></hover> <dark_gray>» <gray><message>'
+    messageFormat: '<dark_gray>[<prefix><dark_gray>] <hover:show_text:"<red><yellow>Example tooltip"><displayname_with_click></hover> <dark_gray><arrow_right> <gray><message>'
     priority: 100
+    
+placeholders:
+  displayname_with_click: '<click:suggest_command:"/msg <playername> "><yellow><displayname></click>'
+  arrow_right: »
+  arrow_left: «
 ```
 {% endcode %}
 
 ## How to install?
 
-1. [Download ](https://discordapp.com/channels/222070253172031500/564936267037540353/790638738828558356)the extension from the Discord server.
+1. [Download ](https://discord.com/channels/222070253172031500/564936267037540353)the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your spigot server.
 3. Restart your spigot server.
 
