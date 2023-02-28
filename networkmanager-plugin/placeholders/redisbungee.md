@@ -1,7 +1,6 @@
 # RedisBungee
 
-```text
-%redisbungee_onlineplayers%
-%redisbungee_proxy%
 ```
-
+redisbungee_onlineplayers
+redisbungee_proxy
+```
