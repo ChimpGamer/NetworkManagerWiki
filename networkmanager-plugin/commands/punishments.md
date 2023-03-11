@@ -203,7 +203,7 @@
 {% hint style="info" %}
 ### &#x20;Punish
 
-**Usage:** /punish \[username] \[templateId]\
+**Usage:** /punish \[username] \[templateId/templateName]\
 **Permission:** networkmanager.command.punish
 {% endhint %}
 
