@@ -44,6 +44,13 @@
 {% endhint %}
 
 {% hint style="info" %}
+### &#x20;**Party Leaderwarp**
+
+**Usage:** /party leaderwarp\
+**Permissions:** networkmanager.command.party.leaderwarp
+{% endhint %}
+
+{% hint style="info" %}
 ### &#x20;**Party SetOwner**
 
 **Usage:** /party setowner \[username] \
@@ -62,4 +69,11 @@
 
 **Usage:** /party status\
 **Permission:** networkmanager.command.party.status
+{% endhint %}
+
+{% hint style="info" %}
+### **Party List**
+
+**Usage:** /party list\
+**Permission:** networkmanager.command.party.list
 {% endhint %}
