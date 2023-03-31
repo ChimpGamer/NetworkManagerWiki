@@ -60,6 +60,20 @@ Example:
 {"title": "Title here", "subtitle": "Subtitle here", "fadeOut": 20, "fadeIn": 20, "stay": 60}
 ```
 
+### Announcement conditions
+
+In the condition field you can define the required condition the player needs to meet in order to receive the announcement. These conditions are placeholder based so you need a placeholder you can use to compare against a value or multiple values. There are a few operators you can use to compare:
+
+1. \== (equal)
+2. != (not equal)
+3. < (lower then)
+4. <= (lower then or equal to)
+5. \> (higher then)
+6. \>= (higher then or equal to)
+
+You can also define multiple values by separating the values with a comma.\
+Example: %version% == 1.19,1.19.1,1.19.2,1.19.3,1.19.4
+
 ### Announcement sounds
 
 You can use sounds with Announcements. All sounds listed below will work with 1.8 - 1.14.
