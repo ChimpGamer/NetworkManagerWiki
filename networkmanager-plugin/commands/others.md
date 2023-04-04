@@ -47,7 +47,8 @@ networkmanager.command.maintenance.status,
 **Usage:** /nick \<off/reset/username/nickname>\
 **Permissions:** networkmanager.command.nickname, networkmanager.command.nickname.other,\
 networkmanager.nickname.colorcodes,\
-networkmanager.nickname.format
+networkmanager.nickname.format\
+networkmanager.nickname.length.\<length> (max 192)
 {% endhint %}
 
 {% hint style="info" %}
