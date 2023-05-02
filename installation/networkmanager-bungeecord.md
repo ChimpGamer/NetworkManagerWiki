@@ -1,4 +1,4 @@
-# NetworkManager (BungeeCord)
+# NetworkManager (BungeeCord/Velocity)
 
 ![](../.gitbook/assets/image.png)
 
@@ -10,12 +10,12 @@
 
 ### Installation
 
-1. Drop the plugin ([NetworkManager](https://www.spigotmc.org/resources/networkmanager.28456/)) in your BungeeCord plugins folder.
-2. Start your BungeeCord server.
+1. Drop the plugin ([NetworkManager](https://www.spigotmc.org/resources/networkmanager.28456/)) in your BungeeCord or Velocity plugins folder.
+2. Start your BungeeCord/Velocity server.
 3. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
 4. Enter your MySQL host, port, username, password and database.
 5. (Optional) Enable Redis. Enter redis host and password if you set one.
-6. Restart your BungeeCord server. It will now create tables and insert some data into it.
+6. Restart your BungeeCord/Velocity server. It will now create tables and insert some data into it.
 7. Execute "nm test database" in the console to test the connection. If the command is unknown check your bungeecord log.
 
 {% hint style="danger" %}

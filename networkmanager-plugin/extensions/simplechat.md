@@ -53,7 +53,7 @@ placeholders:
 
 ## How to install?
 
-1. [Download ](https://discord.com/channels/222070253172031500/564936267037540353)the extension from the Discord server.
+1. [Download ](https://discord.com/channels/222070253172031500/1102241626878914570)the extension from the Discord server.
 2. Drop the extension jar in the extensions folder on your spigot server.
 3. Restart your spigot server.
 

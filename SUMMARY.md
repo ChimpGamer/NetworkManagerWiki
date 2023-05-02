@@ -2,7 +2,7 @@
 
 * [NetworkManager](README.md)
 * [Installation](installation/README.md)
-  * [NetworkManager (BungeeCord)](installation/networkmanager-bungeecord.md)
+  * [NetworkManager (BungeeCord/Velocity)](installation/networkmanager-bungeecord.md)
   * [NetworkManager (WebInterface)](installation/networkmanager-webinterface.md)
   * [NetworkManager (Spigot)](installation/networkmanager-spigot.md)
   * [(Important) GeoIP Api Access Key](installation/important-geoip-api-access-key.md)
@@ -33,7 +33,7 @@
 * [Languages](networkmanager-plugin/languages.md)
 * [Extensions](networkmanager-plugin/extensions/README.md)
   * [DiscordBot](networkmanager-plugin/extensions/discordbot.md)
-  * [PlayerNameList](networkmanager-plugin/extensions/playernamelist.md)
+  * [PlayerListName](networkmanager-plugin/extensions/playernamelist.md)
   * [RestAPI](networkmanager-plugin/extensions/restapi/README.md)
     * [Routes](networkmanager-plugin/extensions/restapi/handlers/README.md)
       * [OnlinePlayers](networkmanager-plugin/extensions/restapi/handlers/onlineplayers.md)
