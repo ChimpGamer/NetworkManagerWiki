@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Drop the plugin ([NetworkManager](https://www.spigotmc.org/resources/networkmanager.28456/)) in your BungeeCord or Velocity plugins folder.
+1. Drop the plugin ([NetworkManager](https://www.spigotmc.org/resources/networkmanager.28456/)) in your BungeeCord or Velocity ([Velocity builds](https://discord.com/channels/222070253172031500/1094976246376566884)) plugins folder.
 2. Start your BungeeCord/Velocity server.
 3. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
 4. Enter your MySQL host, port, username, password and database.

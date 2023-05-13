@@ -16,7 +16,7 @@
 
 ### Installation
 
-1. Download the jar from (Discord) [here](https://discord.com/channels/222070253172031500/884868288386052196).
+1. Download the jar from (Discord) [here](https://discord.com/channels/222070253172031500/1094976129045114960).
 2. Drop the plugin (NetworkManager) in your Spigot plugins folder.
 3. Start your Spigot server.
 4. Open the settings.yml located at /plugins/NetworkManager/settings.yml.
