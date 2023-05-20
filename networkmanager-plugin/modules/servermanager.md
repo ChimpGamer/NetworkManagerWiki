@@ -6,7 +6,7 @@ With ServerManager you can add, remove, modify and more like you would do in the
 
 ## Requirements
 
-The ServerManager requires only 1 thing. You need at least one server in your BungeeCord configuration. It is recommended that you put your authentication or hub/lobby servers in there as fallback of the ServerManager system.
+The ServerManager requires only 1 thing. You need at least one server in your BungeeCord configuration. The name of this server needs to match with one of the servers you configured in NetworkManager. It is recommended that you put your authentication or hub/lobby servers in there as fallback of the ServerManager system.
 
 Also make sure you disable \`force\_default\_server\` in the config.yml of BungeeCord otherwise you will get this error on login: [https://pastebin.com/3RQxi1N1](https://pastebin.com/3RQxi1N1)
 
