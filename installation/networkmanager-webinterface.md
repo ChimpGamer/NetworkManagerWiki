@@ -9,7 +9,7 @@
 
 ### Installation
 
-TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! After successfully executing the script you can go to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts [here](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)
+~~TIP: You can use one of the install scripts here to install the WebServer and the NetworkManager files. This does NOT install you a MySQL server! After successfully executing the script you can go to step 3 and skip all the permission steps. If you use one of these scripts make sure you execute them as sudo. Like sudo sh script.sh. You can find the scripts~~ [~~here~~](https://github.com/ChimpGamer/NetworkManager/tree/master/Webbie/InstallScripts)~~.~~ **This method is outdated!**
 
 {% hint style="info" %}
 **If you are using Red Hat Linux or CentOS, ensure to also run the following command:**
