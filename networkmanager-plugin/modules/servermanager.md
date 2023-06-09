@@ -58,8 +58,11 @@ You can also do this for single servers liked you're used to of course.
 **Permission**: networkmanager.serverstatus.notify\
 Allows you to receive notifications when a server goes offline or online.
 
-**Permission**: networkmanager.servers.bypassrestricted\
+**Permission**: networkmanager.servers.bypass.restricted\
 Allows you to bypass server restriction on all servers.
+
+**Permission:** networkmanager.servers.bypass.version\
+Allows you to bypass the version restriction on all servers.
 
 **Permission**: networkmanager.server.\<serverName>\
 Allows you to bypass server restriction on the specified server.
