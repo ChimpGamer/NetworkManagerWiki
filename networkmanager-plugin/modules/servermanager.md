@@ -86,6 +86,7 @@ NOTE: The above settings expect the name of a servergroup as value.
 
 ## Allowed Versions options
 
+* 1.20
 * 1.19.4
 * 1.19.3
 * 1.19.1
