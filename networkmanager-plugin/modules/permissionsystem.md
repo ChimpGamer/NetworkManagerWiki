@@ -19,7 +19,7 @@ The `[default]` user is like a template for all new users. So when a new user jo
 ### Timed permissions and groups
 
 **Syntaxes:**\
-****`/nmp user add (server) (world) (expires`\
+`/nmp user add (server) (world) (expires)`\
 `/nmp group add (server) (world) (expires)`\
 `/nmp user addgroup (server) (expires)`
 
