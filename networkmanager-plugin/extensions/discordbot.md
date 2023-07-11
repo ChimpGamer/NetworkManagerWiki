@@ -24,23 +24,22 @@ Check: [https://github.com/DV8FromTheWorld/JDA/wiki/19%29-Troubleshooting](https
 
 ## How do I link my discord account?
 
-1. PM the discord bot "!register".
+1. PM the discord bot "/register" or in one of the guild channels where the "/register" command is allowed.
 2. The bot will send you a key you have to copy.
 3. Then you execute /register \<key> in-game and you will be verified. (Permission: networkmanager.bot.register)
 4. The key message got edited by the bot telling you the verification process has succeeded.
 
 ## Commands
 
-!register - PM to Bot Only\
-!players/!online/!onlineplayers\
-!playtime\
-!uptime
+**Discord:**\
+/register - PM to Bot Only\
+/players\
+/online\
+/onlineplayers\
+/playtime\
+/uptime
 
-{% hint style="info" %}
-Since Version 1.7.0 the discord commands are slash commands!
-{% endhint %}
-
-In-game:\
+**In-game:**\
 \- /bug - networkmanager.bot.bug\
 \- /suggestion - networkmanager.bot.suggestion\
 \- /register - networkmanager.bot.register\
@@ -67,3 +66,7 @@ DiscordBot adds a couple of placeholders to NetworkManager. You can use those pl
 | discordbot\_user\_current\_voicechannel      | Returns the name of the current voice channel the user is in                      |
 | discordbot\_member\_name                     | Returns the name of the name of the member that is linked to the player           |
 | discordbot\_is\_member\_of\_guild\_\<userId> | Returns true if the user of the defined user id is a member of the discord guild. |
+
+## 3rd Party supported plugins
+
+* LiteBans
