@@ -9,6 +9,7 @@
 * Configurable command prefix.
 * Receive notification from several events like HelpOP requests, Punishments or Server status changes.
 * Make the bot send messages from all mc servers or just one to a specific discord channel.
+* LiteBans support.&#x20;
 
 ## How to install?
 
@@ -66,7 +67,3 @@ DiscordBot adds a couple of placeholders to NetworkManager. You can use those pl
 | discordbot\_user\_current\_voicechannel      | Returns the name of the current voice channel the user is in                      |
 | discordbot\_member\_name                     | Returns the name of the name of the member that is linked to the player           |
 | discordbot\_is\_member\_of\_guild\_\<userId> | Returns true if the user of the defined user id is a member of the discord guild. |
-
-## 3rd Party supported plugins
-
-* LiteBans
