@@ -15,7 +15,7 @@
 **Usage:** /announce \<chat/actionbar/title> \<global/local/servername> \<message>\
 **Aliases:** /announcement, alert, broadcast\
 **Permissions:** \
-****networkmanager.command.announce.chat\
+networkmanager.command.announce.chat\
 networkmanager.command.announce,actionbar\
 networkmanager.command.announce.title\
 networkmanager.command.announce.global\

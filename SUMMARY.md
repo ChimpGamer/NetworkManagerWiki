@@ -59,7 +59,7 @@
   * [SlashServer](networkmanager-plugin/modules/slashserver.md)
   * [TabHeader](networkmanager-plugin/modules/tabheader.md)
 * [Placeholders](networkmanager-plugin/placeholders/README.md)
-  * [PlaceholderAPI](networkmanager-plugin/placeholders/placeholderapi-mvdwplaceholderapi-placeholders.md)
+  * [PlaceholderAPI](networkmanager-plugin/placeholders/placeholderapi.md)
   * [LuckPerms](networkmanager-plugin/placeholders/luckperms.md)
   * [PremiumVanish](networkmanager-plugin/placeholders/premiumvanish.md)
   * [UltraPermissions](networkmanager-plugin/placeholders/ultrapermissions.md)
