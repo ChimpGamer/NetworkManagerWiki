@@ -43,7 +43,7 @@
 {% hint style="info" %}
 ### &#x20;**Global Temporary Mute**
 
-**Usage:** /gtemp \[username] \[duration] (-s) \[reason]\
+**Usage:** /gtempmute \[username] \[duration] (-s) \[reason]\
 **Permission:** networkmanager.command.gtempmute\
 **Alert Permission:** networkmanager.punishment.gtempmute.alert
 {% endhint %}
